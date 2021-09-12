@@ -1,0 +1,54 @@
+/* remove count per year */
+.bibbase_group_count {
+  display:none;
+}
+
+/* headers in amber background and white font */
+.bibbase_group {
+    background-color: #ffbf00;
+    font-size: 150%;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    padding: 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
+
+/* remove indentation for paper list after year header */
+.bibbase_group_body {
+	margin-left:0px;
+}
+
+/* papers in light gray background with rounded corners */
+.bibbase_paper {
+  background: #ECEDEF;  /* light gray */
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  border-radius: 10px;  /* rounded corners */
+}
+
+/* paper titles in bold */
+.bibbase_paper_title a {
+	font-weight: bold;
+}
+
+.bibbase_note {
+	font-weight: bold;
+  font-style: normal;
+  color: #EC7063; /* light red #F1948A */
+}
+
+/* don't use icons for the links */
+img.bibbase_icon {
+    display: none;
+}
+
+/* don't use smaller font for the links and display them at the end after a break */
+.bibbase_paper_content {
+    font-size: 100%;
+    display: block;
+}
