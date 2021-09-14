@@ -5,6 +5,7 @@
 
 /* headers in amber background and white font */
 .bibbase_group {
+    background: #ffffff;
     font-size: 150%;
     font-weight: normal;
     font-style: bold;
