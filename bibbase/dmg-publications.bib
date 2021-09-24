@@ -73,6 +73,18 @@
     abstract = "Just as the meaning of words is tied to the communities in which they are used, so too is semantic change. But how does lexical semantic change manifest differently across different communities? In this work, we investigate the relationship between community structure and semantic change in 45 communities from the social media website Reddit. We use distributional methods to quantify lexical semantic change and induce a social network on communities, based on interactions between members. We explore the relationship between semantic change and the clustering coefficient of a community{'}s social network graph, as well as community size and stability. While none of these factors are found to be significant on their own, we report a significant effect of their three-way interaction. We also report on significant word-level effects of frequency and change in frequency, which replicate previous findings.",
 }
 
+@inproceedings{giulianelli-etal-2021-profiling,
+    title = "Analysing Human Strategies of Information Transmission as a Function of Discourse Context",
+    author = "Giulianelli, Mario and Kutuzov, Andrey and Pivovarova, Lidia",
+    booktitle = "Proceedings of the 25th Conference on Computational Natural Language Learning (CoNLL)",
+    year = "2021",
+    publisher = "Association for Computational Linguistics.",
+    note = "To appear.",
+    url = "https://arxiv.org/abs/2109.10397",
+    url_GitHub = "https://github.com/glnmario/semchange-profiling",
+    abstract = "Semantics, morphology and syntax are strongly interdependent. However, the majority of computational methods for semantic change detection use distributional word representations which encode mostly semantics. We investigate an alternative method, grammatical profiling, based entirely on changes in the morphosyntactic behaviour of words. We demonstrate that it can be used for semantic change detection and even outperforms some distributional semantic methods. We present an in-depth qualitative and quantitative analysis of the predictions made by our grammatical profiling system, showing that they are plausible and interpretable."
+    }
+    
 @inproceedings{del-tredici-fernandez-2020-words,
     title = "Words are the Window to the Soul: Language-based User Representations for Fake News Detection",
     author = "Del Tredici, Marco  and
@@ -141,6 +153,21 @@
     doi = "10.18653/v1/2020.acl-main.365",
     pages = "3960--3973",
     abstract = "This paper presents the first unsupervised approach to lexical semantic change that makes use of contextualised word representations. We propose a novel method that exploits the BERT neural language model to obtain representations of word usages, clusters these representations into usage types, and measures change along time with three proposed metrics. We create a new evaluation dataset and show that the model representations and the detected semantic shifts are positively correlated with human judgements. Our extensive qualitative analysis demonstrates that our method captures a variety of synchronic and diachronic linguistic phenomena. We expect our work to inspire further research in this direction.",
+}
+
+@inproceedings{kutuzov-giulianelli-2020-change,
+    title = "{U}i{O}-{U}v{A} at {S}em{E}val-2020 Task 1: Contextualised Embeddings for Lexical Semantic Change Detection",
+    author = "Kutuzov, Andrey  and
+      Giulianelli, Mario",
+    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
+    month = dec,
+    year = "2020",
+    address = "Barcelona (online)",
+    publisher = "International Committee for Computational Linguistics",
+    url = "https://aclanthology.org/2020.semeval-1.14",
+    url_GitHub = "https://github.com/akutuzov/semeval2020",
+    pages = "126--134",
+    abstract = "We apply contextualised word embeddings to lexical semantic change detection in the SemEval-2020 Shared Task 1. This paper focuses on Subtask 2, ranking words by the degree of their semantic drift over time. We analyse the performance of two contextualising architectures (BERT and ELMo) and three change detection algorithms. We find that the most effective algorithms rely on the cosine similarity between averaged token embeddings and the pairwise distances between token embeddings. They outperform strong baselines by a large margin (in the post-evaluation phase, we have the best Subtask 2 submission for SemEval-2020 Task 1), but interestingly, the choice of a particular algorithm depends on the distribution of gold scores in the test set.",
 }
 
 @proceedings{conll-2020-natural,
