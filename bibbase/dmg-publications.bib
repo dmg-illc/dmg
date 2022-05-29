@@ -17,13 +17,83 @@
   of language models and opens the door to future priming-based investigations that probe the model's internal states."
 }
 
+@inproceedings{ryb-etal-2022-startsem,
+   author = "Samuel Ryb and Mario Giulianelli and Arabella Sinclair and Fern{\'a}ndez, Raquel",
+   title = "{AnaLog: Testing Analytical and Deductive Logic Learnability in Language Models}",
+   booktitle = "Proceedings of *SEM 2022: The Eleveth Joint Conference on Lexical and Computational Semantics", 
+   note = "To appear.",
+   year = "2022"
+}
+
 @inproceedings{takmaz-etal-2022-cmcl,
-    title = "Less Descriptive yet Discriminative: Quantifying the Properties of Multimodal Referring Utterances via CLIP",
+    title = "Less Descriptive yet Discriminative: Quantifying the Properties of Multimodal Referring Utterances via {CLIP}",
     author = "Takmaz, Ece  and Pezzelle, Sandro  and Fern{\'a}ndez, Raquel",
-    booktitle = "Proceedings of the 2020 Cognitive Modeling and Computational Linguistics workshop",
-    note = "To appear",
-    year = "2022"
- }
+    booktitle = "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.cmcl-1.4",
+    pages = "36--42",
+    abstract = "In this work, we use a transformer-based pre-trained multimodal model, CLIP, 
+    to shed light on the mechanisms employed by human speakers when referring to visual entities. 
+    In particular, we use CLIP to quantify the degree of descriptiveness (how well an utterance 
+    describes an image in isolation) and discriminativeness (to what extent an utterance is effective 
+    in picking out a single image among similar images) of human referring utterances within multimodal 
+    dialogues. Overall, our results show that utterances become less descriptive over time while their 
+    discriminativeness remains unchanged. Through analysis, we propose that this trend could be due to 
+    participants relying on the previous mentions in the dialogue history, as well as being able to 
+    distill the most discriminative information from the visual context. In general, our study opens 
+    up the possibility of using this and similar models to quantify patterns in human data and shed 
+    light on the underlying cognitive mechanisms."
+}
+
+@inproceedings{takmaz-2022-team,
+    title = "Team {DMG} at {CMCL} 2022 Shared Task: Transformer Adapters for the Multi- and Cross-Lingual Prediction of Human Reading Behavior",
+    author = "Takmaz, Ece",
+    booktitle = "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.cmcl-1.16",
+    pages = "136--144",
+    abstract = "In this paper, we present the details of our approaches that attained the second place 
+    in the shared task of the ACL 2022 Cognitive Modeling and Computational Linguistics Workshop. 
+    The shared task is focused on multi- and cross-lingual prediction of eye movement features in 
+    human reading behavior, which could provide valuable information regarding language processing. 
+    To this end, we train {`}adapters{'} inserted into the layers of frozen transformer-based pretrained 
+    language models. We find that multilingual models equipped with adapters perform well in predicting 
+    eye-tracking features. Our results suggest that utilizing language- and task-specific adapters is 
+    beneficial and translating test sets into similar languages that exist in the training set could 
+    help with zero-shot transferability in the prediction of human reading behavior."
+}
+
+@inproceedings{giulianelli-etal-2022-fire,
+    title = "Do Not Fire the Linguist: Grammatical Profiles Help Language Models Detect Semantic Change",
+    author = "Giulianelli, Mario  and Kutuzov, Andrey  and Pivovarova, Lidia",
+    booktitle = "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.lchange-1.6",
+    pages = "54--67",
+    abstract = "Morphological and syntactic changes in word usage {---} as captured, e.g., by 
+    grammatical profiles {---} have been shown to be good predictors of a word{'}s meaning change. 
+    In this work, we explore whether large pre-trained contextualised language models, a common tool 
+    for lexical semantic change detection, are sensitive to such morphosyntactic changes. To this end, 
+    we first compare the performance of grammatical profiles against that of a multilingual neural 
+    language model (XLM-R) on 10 datasets, covering 7 languages, and then combine the two approaches 
+    in ensembles to assess their complementarity. Our results show that ensembling grammatical 
+    profiles with XLM-R improves semantic change detection performance for most datasets and languages. 
+    This indicates that language models do not fully cover the fine-grained morphological and syntactic 
+    signals that are explicitly represented in grammatical profiles. An interesting exception are the 
+    test sets where the time spans under analysis are much longer than the time gap between them 
+    (for example, century-long spans with a one-year gap between them). Morphosyntactic change is 
+    slow so grammatical profiles do not detect in such cases. In contrast, language models, thanks 
+    to their access to lexical information, are able to detect fast topical changes."
+}
 
 
 @Article{pezzelle-etal-2021-tacl,
