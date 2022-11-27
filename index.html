@@ -25,11 +25,31 @@
 <div class="w3-top">
     <div class="w3-bar w3-black w3-text-white w3-large">
         <a href="https://dmg-illc.github.io/dmg/"  class="w3-bar-item w3-button w3-hover-amber">home</a>
-        <a href="https://dmg-illc.github.io/dmg/#news" class="w3-bar-item w3-button w3-hover-amber">news</a>
-        <a href="https://dmg-illc.github.io/dmg/#people" class="w3-bar-item w3-button w3-hover-amber">people</a>
-        <a href="https://dmg-illc.github.io/dmg/#resources" class="w3-bar-item w3-button w3-hover-amber">resources</a>
-        <a href="https://dmg-illc.github.io/dmg/#publications" class="w3-bar-item w3-button w3-hover-amber">publications</a>
+        <a href="https://dmg-illc.github.io/dmg/#news" class="w3-bar-item w3-button w3-hover-amber w3-hide-small">news</a>
+        <a href="https://dmg-illc.github.io/dmg/#people" class="w3-bar-item w3-button w3-hover-amber w3-hide-small">people</a>
+        <a href="https://dmg-illc.github.io/dmg/#resources" class="w3-bar-item w3-button w3-hover-amber w3-hide-small">resources</a>
+        <a href="https://dmg-illc.github.io/dmg/#publications" class="w3-bar-item w3-button w3-hover-amber w3-hide-small">publications</a>
+        <!-- menu button in small screens -->
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-amber" onclick="myFunction()">&#9776;</a>
     </div>
+<!-- replace navigation with menu button in small screens -->
+    <div id="small-menu" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="https://dmg-illc.github.io/dmg/#news" class="w3-bar-item w3-button w3-hover-amber">news</a>
+      <a href="https://dmg-illc.github.io/dmg/#people" class="w3-bar-item w3-button w3-hover-amber">people</a>
+      <a href="https://dmg-illc.github.io/dmg/#resources" class="w3-bar-item w3-button w3-hover-amber">resources</a>
+      <a href="https://dmg-illc.github.io/dmg/#publications" class="w3-bar-item w3-button w3-hover-amber">publications</a>
+    </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("small-menu");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </div>
 <!-- End of HEADER + NAVIGATION  STUCK AT THE TOP -->
 
