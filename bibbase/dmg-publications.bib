@@ -1,31 +1,63 @@
+@article{Pezzelle-Fernandez-2022-cogsci,
+author = {Pezzelle, Sandro and Fern{\'a}ndez, Raquel},
+title = {Semantic Adaptation to the Interpretation of Gradable Adjectives via Active Linguistic Interaction},
+journal = {Cognitive Science},
+volume = {47},
+number = {2},
+pages = {e13248},
+keywords = {Gradable adjectives, Semantic adaptation, Vagueness, Questions, Linguistic interaction, Visual grounding},
+doi = {https://doi.org/10.1111/cogs.13248},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13248},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13248},
+abstract = {Abstract When communicating, people adapt their linguistic representations to those of their interlocutors. Previous studies have shown that this also occurs at the semantic level for vague and context-dependent terms such as quantifiers and uncertainty expressions. However, work to date has mostly focused on passive exposure to a given speaker's interpretation, without considering the possible role of active linguistic interaction. In this study, we focus on gradable adjectives big and small and develop a novel experimental paradigm that allows participants to ask clarification questions to figure out their interlocutor's interpretation. We find that, when in doubt, speakers do resort to this strategy, despite its inherent cognitive cost, and that doing so results in higher semantic alignment measured in terms of communicative success. While not all question–answer pairs are equally informative, we show that speakers become better questioners as the interaction progresses. Yet, the higher semantic alignment observed when speakers are able to ask questions does not increase over time. This suggests that conversational interaction's key advantage may be to boost coordination without committing to long-term semantic updates. Our findings shed new light on the mechanisms used by speakers to achieve semantic alignment and on how language is shaped by communication.},
+year = {2023}
+}
 
-@inproceedings{jansen-etal-2022-gem,
+
+
+
+@inproceedings{jansen-etal-2022-controllable,
     title = "Controllable Text Generation for All Ages: Evaluating a Plug-and-Play Approach to Age-Adapted Dialogue",
-    author = "Lennert Jansen and \v{S}t\v{e}p\'{a}n Lars Laichter and Arabella Sinclair and Margot J. van der Goot and Raquel Fern{\'a}ndez and Sandro Pezzelle",
-    booktitle = "Proceedings of the Second Workshop on Generation, Evaluation and Metrics (GEM)",
+    author = "Jansen, Lennert  and
+      Laichter, {\v{S}}t{\v{e}}p{\'a}n Lars  and
+      Sinclair, Arabella  and
+      van der Goot, Margot  and
+      Fern{\'a}ndez, Raquel  and
+      Pezzelle, Sandro",
+    booktitle = "Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)",
     year = "2022",
-    url_github = "https://github.com/lennertjansen/pplm-age-adapt-dialogue",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
     publisher = "Association for Computational Linguistics",
-    note = "To appear"
+    url = "https://aclanthology.org/2022.gem-1.14",
+    pages = "172--188",
+    abstract = "To be trusted and perceived as natural and coherent, conversational systems must adapt to the language of their users. While personalized dialogue is a promising direction, controlling generation for fine-grained language features remains a challenge in this approach. A recent line of research showed the effectiveness of leveraging pre-trained language models toward adapting to a text{'}s topic or sentiment. In this study, we build on these approaches and focus on a higher-level dimension of language variation: speakers{'} age. We frame the task as a dialogue response generation, and test methods based on bag-of-words (BoW) and neural discriminators (Disc) to condition the output of GPT-2 and DialoGPT without altering the parameters of the language models. We show that Disc models achieve a higher degree of detectable control than BoW models based on automatic evaluation. In contrast, humans can partially detect age differences in BoW but not Disc responses. Since BoW responses are deemed better than Disc ones by humans, simple controllable methods thus appear to be a better tradeoff between adaptation and language quality. Our work confirms the challenges of adapting to higher-level dimensions of language variation. Moreover, it highlights the need to evaluate natural language generation thoroughly.",
 }
 
 @inproceedings{baan-etal-2022-emnlp,
     title = "Stop Measuring Calibration When Humans Disagree",
-    author = "Joris Baan and Wilker Aziz and Barbara Plank and Raquel Fern\'andez",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)",
+    author = "Baan, Joris  and
+      Aziz, Wilker  and
+      Plank, Barbara  and
+      Fern{\'a}ndez, Raquel",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
     year = "2022",
-    url = "https://arxiv.org/abs/2210.16133",
-    url_github = "https://github.com/jsbaan/calibration-on-disagreement-data",
-    note = "To appear"
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.124",
+    pages = "1892--1915",
+    abstract = "Calibration is a popular framework to evaluate whether a classifier knows when it does not know - i.e., its predictive probabilities are a good indication of how likely a prediction is to be correct. Correctness is commonly estimated against the human majority class. Recently, calibration to human majority has been measured on tasks where humans inherently disagree about which class applies. We show that measuring calibration to human majority given inherent disagreements is theoretically problematic, demonstrate this empirically on the ChaosNLI dataset, and derive several instance-level measures of calibration that capture key statistical properties of human judgements - including class frequency, ranking and entropy.",
 }
 
 @inproceedings{giulianelli-2022-emnlp,
-    title = "Towards Pragmatic Production Strategies for Natural Language Generation",
-    author = "Mario Giulianelli",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)",
+    title = "Towards Pragmatic Production Strategies for Natural Language Generation Tasks",
+    author = "Giulianelli, Mario",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
     year = "2022",
-    url = "https://arxiv.org/abs/2210.12828",
-    note = "To appear"
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.544",
+    pages = "7978--7984",
+    abstract = "This position paper proposes a conceptual framework for the design of Natural Language Generation (NLG) systems that follow efficient and effective production strategies in order to achieve complex communicative goals. In this general framework, efficiency is characterised as the parsimonious regulation of production and comprehension costs while effectiveness is measured with respect to task-oriented and contextually grounded communicative goals. We provide concrete suggestions for the estimation of goals, costs, and utility via modern statistical methods, demonstrating applications of our framework to the classic pragmatic task of visually grounded referential games and to abstractive text summarisation, two popular generation tasks with real-world applications. In sum, we advocate for the development of NLG systems that learn to make pragmatic production decisions from experience, by reasoning about goals, costs, and utility in a human-like way.",
 }
 
 @inproceedings{giulianelli-etal-2022-construction,
