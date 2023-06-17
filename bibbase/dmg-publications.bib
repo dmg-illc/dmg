@@ -1,3 +1,34 @@
+
+@inproceedings{giulianelli-etal-2023-acl,
+    title = "Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis",
+    author = "Mario Giulianelli and Iris Luden and Raquel Fern{\'a}ndez and Andrey Kutuzov",
+    booktitle = "Proceedings of the 2023 Annual Meeting of the Association for Computational Linguistics",
+    year = "2023",
+   note = "To appear at ACL",
+    url = "https://arxiv.org/abs/2305.11993",
+    abstract = "We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations. Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label. We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users -- historical linguists, lexicographers, or social scientists -- to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the `definitions as representations' paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic similarity judgements, making them a new promising type of lexical representation for NLP.",
+}
+
+@inproceedings{takmazbrandizzi-etal-2023-aclfindings,
+    title = "Speaking the Language of Your Listener: Audience-Aware Adaptation via Plug-and-Play Theory of Mind",
+    author="Ece Takmaz and Nicolo' Brandizzi and Mario Giulianelli and Sandro Pezzelle and Raquel Fern{\'a}ndez",
+    booktitle = "Proceedings of the 2023 Findings of the Association for Computational Linguistics",
+    year = "2023",
+    note = "To appear at Findings of ACL",
+    url = "https://arxiv.org/abs/2305.19933",
+    abstract = "Dialogue participants may have varying levels of knowledge about the topic under discussion. In such cases, it is essential for speakers to adapt their utterances by taking their audience into account. Yet, it is an open question how such adaptation can be modelled in computational agents. In this paper, we model a visually grounded referential game between a knowledgeable speaker and a listener with more limited visual and linguistic experience. Inspired by psycholinguistic theories, we endow our speaker with the ability to adapt its referring expressions via a simulation module that monitors the effectiveness of planned utterances from the listener's perspective. We propose an adaptation mechanism building on plug-and-play approaches to controlled language generation, where utterance generation is steered on the fly by the simulator without finetuning the speaker's underlying language model. Our results and analyses show that our approach is effective: the speaker's utterances become closer to the listener's domain of expertise, which leads to higher communicative success."
+}
+
+@manuscript{giulianelli-etal-2023-arxiv,
+    title = "What Comes Next? Evaluating Uncertainty in Neural Text Generators Against Human Production Variability",
+    author = " Giulianelli, Mario and Baan, Joris and Aziz, Wilker and Fern{\'a}ndez, Raquel and Plank, Barbara",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="arXiv preprint",
+    url = "https://arxiv.org/abs/2305.11707",
+    abstract = "In Natural Language Generation (NLG) tasks, for any input, multiple communicative goals are plausible, and any goal can be put into words, or produced, in multiple ways. We characterise the extent to which human production varies lexically, syntactically, and semantically across four NLG tasks, connecting human production variability to aleatoric or data uncertainty. We then inspect the space of output strings shaped by a generation system's predicted probability distribution and decoding algorithm to probe its uncertainty. For each test input, we measure the generator's calibration to human production variability. Following this instance-level approach, we analyse NLG models and decoding strategies, demonstrating that probing a generator with multiple samples and, when possible, multiple references, provides the level of detail necessary to gain understanding of a model's representation of uncertainty."
+ }
+
 @article{Pezzelle-Fernandez-2023-cogsci,
 author = {Pezzelle, Sandro and Fern{\'a}ndez, Raquel},
 title = {Semantic Adaptation to the Interpretation of Gradable Adjectives via Active Linguistic Interaction},
@@ -12,9 +43,6 @@ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13248},
 abstract = {Abstract When communicating, people adapt their linguistic representations to those of their interlocutors. Previous studies have shown that this also occurs at the semantic level for vague and context-dependent terms such as quantifiers and uncertainty expressions. However, work to date has mostly focused on passive exposure to a given speaker's interpretation, without considering the possible role of active linguistic interaction. In this study, we focus on gradable adjectives big and small and develop a novel experimental paradigm that allows participants to ask clarification questions to figure out their interlocutor's interpretation. We find that, when in doubt, speakers do resort to this strategy, despite its inherent cognitive cost, and that doing so results in higher semantic alignment measured in terms of communicative success. While not all question–answer pairs are equally informative, we show that speakers become better questioners as the interaction progresses. Yet, the higher semantic alignment observed when speakers are able to ask questions does not increase over time. This suggests that conversational interaction's key advantage may be to boost coordination without committing to long-term semantic updates. Our findings shed new light on the mechanisms used by speakers to achieve semantic alignment and on how language is shaped by communication.},
 year = {2023}
 }
-
-
-
 
 @inproceedings{jansen-etal-2022-controllable,
     title = "Controllable Text Generation for All Ages: Evaluating a Plug-and-Play Approach to Age-Adapted Dialogue",
