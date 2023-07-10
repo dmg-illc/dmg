@@ -1,29 +1,45 @@
 
-@inproceedings{giulianelli-etal-2023-acl,
+@inproceedings{giulianelli-etal-2023,
     title = "Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis",
-    author = "Mario Giulianelli and Iris Luden and Raquel Fern{\'a}ndez and Andrey Kutuzov",
+    author = "Giulianelli, Mario  and
+      Luden, Iris  and
+      Fern{\'a}ndez, Raquel  and
+      Kutuzov, Andrey",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     year = "2023",
-   note = "To appear at ACL",
-    url = "https://arxiv.org/abs/2305.11993",
-    abstract = "We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations. Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label. We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users -- historical linguists, lexicographers, or social scientists -- to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the `definitions as representations' paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic similarity judgements, making them a new promising type of lexical representation for NLP.",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.176",
+    pages = "3130--3148",
+    abstract = "We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations.Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label. We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users {---} historical linguists, lexicographers, or social scientists {---} to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the {`}definitions as representations{'} paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic similarity judgements, making them a new promising type of lexical representation for NLP.",
 }
 
-@inproceedings{pezzelle-2023-acl,
-    title = "Dealing with Semantic Underspecification in Multimodal NLP",
-    author = "Sandro Pezzelle",
-   year = "2023",
-   note = "To appear at ACL",
-   url = "https://arxiv.org/abs/2306.05240",
-   abstract = "Intelligent systems that aim at mastering language as humans do must deal with its semantic underspecification, namely, the possibility for a linguistic signal to convey only part of the information needed for communication to succeed. Consider the usages of the pronoun they, which can leave the gender and number of its referent(s) underspecified. Semantic underspecification is not a bug but a crucial language feature that boosts its storage and processing efficiency. Indeed, human speakers can quickly and effortlessly integrate semantically-underspecified linguistic signals with a wide range of non-linguistic information, e.g., the multimodal context, social or cultural conventions, and shared knowledge. Standard NLP models have, in principle, no or limited access to such extra information, while multimodal systems grounding language into other modalities, such as vision, are naturally equipped to account for this phenomenon. However, we show that they struggle with it, which could negatively affect their performance and lead to harmful consequences when used for applications. In this position paper, we argue that our community should be aware of semantic underspecification if it aims to develop language technology that can successfully interact with human users. We discuss some applications where mastering it is crucial and outline a few directions toward achieving this goal."
+@inproceedings{pezzelle-2023-dealing,
+    title = "Dealing with Semantic Underspecification in Multimodal {NLP}",
+    author = "Pezzelle, Sandro",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.675",
+    pages = "12098--12112",
+    abstract = "Intelligent systems that aim at mastering language as humans do must deal with its semantic underspecification, namely, the possibility for a linguistic signal to convey only part of the information needed for communication to succeed. Consider the usages of the pronoun they, which can leave the gender and number of its referent(s) underspecified. Semantic underspecification is not a bug but a crucial language feature that boosts its storage and processing efficiency. Indeed, human speakers can quickly and effortlessly integrate semantically-underspecified linguistic signals with a wide range of non-linguistic information, e.g., the multimodal context, social or cultural conventions, and shared knowledge. Standard NLP models have, in principle, no or limited access to such extra information, while multimodal systems grounding language into other modalities, such as vision, are naturally equipped to account for this phenomenon. However, we show that they struggle with it, which could negatively affect their performance and lead to harmful consequences when used for applications. In this position paper, we argue that our community should be aware of semantic underspecification if it aims to develop language technology that can successfully interact with human users. We discuss some applications where mastering it is crucial and outline a few directions toward achieving this goal.",
 }
 
-@inproceedings{takmazbrandizzi-etal-2023-aclfindings,
+@inproceedings{takmaz-etal-2023-speaking,
     title = "Speaking the Language of Your Listener: Audience-Aware Adaptation via Plug-and-Play Theory of Mind",
-    author="Ece Takmaz and Nicolo' Brandizzi and Mario Giulianelli and Sandro Pezzelle and Raquel Fern{\'a}ndez",
+    author = "Takmaz, Ece  and
+      Brandizzi, Nicolo{'}  and
+      Giulianelli, Mario  and
+      Pezzelle, Sandro  and
+      Fern{\'a}ndez, Raquel",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
     year = "2023",
-    note = "To appear at Findings of ACL",
-    url = "https://arxiv.org/abs/2305.19933",
-    abstract = "Dialogue participants may have varying levels of knowledge about the topic under discussion. In such cases, it is essential for speakers to adapt their utterances by taking their audience into account. Yet, it is an open question how such adaptation can be modelled in computational agents. In this paper, we model a visually grounded referential game between a knowledgeable speaker and a listener with more limited visual and linguistic experience. Inspired by psycholinguistic theories, we endow our speaker with the ability to adapt its referring expressions via a simulation module that monitors the effectiveness of planned utterances from the listener's perspective. We propose an adaptation mechanism building on plug-and-play approaches to controlled language generation, where utterance generation is steered on the fly by the simulator without finetuning the speaker's underlying language model. Our results and analyses show that our approach is effective: the speaker's utterances become closer to the listener's domain of expertise, which leads to higher communicative success."
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.258",
+    pages = "4198--4217",
+    abstract = "Dialogue participants may have varying levels of knowledge about the topic under discussion. In such cases, it is essential for speakers to adapt their utterances by taking their audience into account. Yet, it is an open question how such adaptation can be modelled in computational agents. In this paper, we model a visually grounded referential game between a knowledgeable speaker and a listener with more limited visual and linguistic experience. Inspired by psycholinguistic theories, we endow our speaker with the ability to adapt its referring expressions via a simulation module that monitors the effectiveness of planned utterances from the listener{'}s perspective. We propose an adaptation mechanism building on plug-and-play approaches to controlled language generation, where utterance generation is steered on the fly by the simulator without finetuning the speaker{'}s underlying language model. Our results and analyses show that our approach is effective: the speaker{'}s utterances become closer to the listener{'}s domain of expertise, which leads to higher communicative success.",
 }
 
 @manuscript{giulianelli-etal-2023-arxiv,
