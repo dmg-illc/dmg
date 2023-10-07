@@ -1,4 +1,49 @@
 
+@inproceedings{giulianelli-etal-2023-information,
+    title = "Information Value: Measuring Utterance Predictability as Distance from Plausible Alternatives",
+    author = "Mario Giulianelli and Sarenne Wallbridge and Raquel Fern{\'a}ndez",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="To appear"
+}
+
+@inproceedings{surikuchi-etal-2023-emnlp,
+    title = "GROOViST: A Metric for Grounding Objects in Visual Storytelling",
+    author = "Aditya Surikuchi and Sandro Pezzelle and Raquel Fern{\'a}ndez",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="To appear"
+}
+
+@inproceedings{chen-etal-2023-emnlp,
+    title = "The BLA Benchmark: Investigating Basic Language Abilities of Pre-Trained Multimodal Models",
+    author = "Xinyi Chen and Raquel Fern{\'a}ndez and Sandro Pezzelle",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="To appear"
+}
+
+@inproceedings{qi-etal-2023-emnlp,
+    title = "Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models",
+    author = "Jurui Qi and Raquel Fern{\'a}ndez and Arianna Bisazza",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="To appear"
+}
+
+
+@inproceedings{giulianelli-etal-2023-arxiv,
+    title = "What Comes Next? Evaluating Uncertainty in Neural Text Generators Against Human Production Variability",
+    author = " Giulianelli, Mario and Baan, Joris and Aziz, Wilker and Fern{\'a}ndez, Raquel and Plank, Barbara",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    note ="To appear",
+    url = "https://arxiv.org/abs/2305.11707",
+    abstract = "In Natural Language Generation (NLG) tasks, for any input, multiple communicative goals are plausible, and any goal can be put into words, or produced, in multiple ways. We characterise the extent to which human production varies lexically, syntactically, and semantically across four NLG tasks, connecting human production variability to aleatoric or data uncertainty. We then inspect the space of output strings shaped by a generation system's predicted probability distribution and decoding algorithm to probe its uncertainty. For each test input, we measure the generator's calibration to human production variability. Following this instance-level approach, we analyse NLG models and decoding strategies, demonstrating that probing a generator with multiple samples and, when possible, multiple references, provides the level of detail necessary to gain understanding of a model's representation of uncertainty."
+ }
+
+
+
 @inproceedings{giulianelli-etal-2023,
     title = "Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis",
     author = "Giulianelli, Mario  and
@@ -14,17 +59,6 @@
     abstract = "We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations.Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label. We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users {---} historical linguists, lexicographers, or social scientists {---} to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the {`}definitions as representations{'} paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic similarity judgements, making them a new promising type of lexical representation for NLP.",
 }
 
-@inproceedings{pezzelle-2023-dealing,
-    title = "Dealing with Semantic Underspecification in Multimodal {NLP}",
-    author = "Pezzelle, Sandro",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-long.675",
-    pages = "12098--12112",
-    abstract = "Intelligent systems that aim at mastering language as humans do must deal with its semantic underspecification, namely, the possibility for a linguistic signal to convey only part of the information needed for communication to succeed. Consider the usages of the pronoun they, which can leave the gender and number of its referent(s) underspecified. Semantic underspecification is not a bug but a crucial language feature that boosts its storage and processing efficiency. Indeed, human speakers can quickly and effortlessly integrate semantically-underspecified linguistic signals with a wide range of non-linguistic information, e.g., the multimodal context, social or cultural conventions, and shared knowledge. Standard NLP models have, in principle, no or limited access to such extra information, while multimodal systems grounding language into other modalities, such as vision, are naturally equipped to account for this phenomenon. However, we show that they struggle with it, which could negatively affect their performance and lead to harmful consequences when used for applications. In this position paper, we argue that our community should be aware of semantic underspecification if it aims to develop language technology that can successfully interact with human users. We discuss some applications where mastering it is crucial and outline a few directions toward achieving this goal.",
-}
 
 @inproceedings{takmaz-etal-2023-speaking,
     title = "Speaking the Language of Your Listener: Audience-Aware Adaptation via Plug-and-Play Theory of Mind",
@@ -42,15 +76,6 @@
     abstract = "Dialogue participants may have varying levels of knowledge about the topic under discussion. In such cases, it is essential for speakers to adapt their utterances by taking their audience into account. Yet, it is an open question how such adaptation can be modelled in computational agents. In this paper, we model a visually grounded referential game between a knowledgeable speaker and a listener with more limited visual and linguistic experience. Inspired by psycholinguistic theories, we endow our speaker with the ability to adapt its referring expressions via a simulation module that monitors the effectiveness of planned utterances from the listener{'}s perspective. We propose an adaptation mechanism building on plug-and-play approaches to controlled language generation, where utterance generation is steered on the fly by the simulator without finetuning the speaker{'}s underlying language model. Our results and analyses show that our approach is effective: the speaker{'}s utterances become closer to the listener{'}s domain of expertise, which leads to higher communicative success.",
 }
 
-@manuscript{giulianelli-etal-2023-arxiv,
-    title = "What Comes Next? Evaluating Uncertainty in Neural Text Generators Against Human Production Variability",
-    author = " Giulianelli, Mario and Baan, Joris and Aziz, Wilker and Fern{\'a}ndez, Raquel and Plank, Barbara",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    year = "2023",
-    note ="arXiv preprint",
-    url = "https://arxiv.org/abs/2305.11707",
-    abstract = "In Natural Language Generation (NLG) tasks, for any input, multiple communicative goals are plausible, and any goal can be put into words, or produced, in multiple ways. We characterise the extent to which human production varies lexically, syntactically, and semantically across four NLG tasks, connecting human production variability to aleatoric or data uncertainty. We then inspect the space of output strings shaped by a generation system's predicted probability distribution and decoding algorithm to probe its uncertainty. For each test input, we measure the generator's calibration to human production variability. Following this instance-level approach, we analyse NLG models and decoding strategies, demonstrating that probing a generator with multiple samples and, when possible, multiple references, provides the level of detail necessary to gain understanding of a model's representation of uncertainty."
- }
 
 @article{Pezzelle-Fernandez-2023-cogsci,
 author = {Pezzelle, Sandro and Fern{\'a}ndez, Raquel},
