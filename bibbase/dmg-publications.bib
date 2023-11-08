@@ -1,13 +1,14 @@
 
 @inproceedings{ghaleb-etal-2024-wacv,
     title = "Co-Speech Gesture Detection through Multi-Phase Sequence Labeling ",
-    author = "Esam Ghaleb and Ilya Burenko and Marlou Rasenberg and Wim Pouw and Peter Uhrig and Judith Holler and Ivan Toni and Asl\i \"Ozy\"urek",
+    author = "Esam Ghaleb and Ilya Burenko and Marlou Rasenberg and Wim Pouw and Peter Uhrig and Judith Holler and Ivan Toni and Asl\i \"Ozy\"urek and Raquel Fern{\'a}ndez",
     booktitle = "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
     year = "2024",
     url ="papers/GhalebEtAl-WAVC2024.pdf",
     url_supp = "papers/GhalebEtAl-WAVC2024-supp.pdf",
-    url_github ="https://github.com/EsamGhaleb/Multi-Phase-Gesture-Detection"
-    note = "To appear"
+    url_github ="https://github.com/EsamGhaleb/Multi-Phase-Gesture-Detection",
+    note = "To appear", 
+    abstract = "Gestures are integral components of face-to-face communication. They unfold over time, often following predictable movement phases of preparation, stroke, and re- traction. Yet, the prevalent approach to automatic gesture detection treats the problem as binary classification, classifying a segment as either containing a gesture or not, thus failing to capture its inherently sequential and contextual nature. To address this, we introduce a novel framework that reframes the task as a multi-phase sequence labeling problem rather than binary classification. Our model processes sequences of skeletal movements over time windows, uses Transformer encoders to learn contextual embeddings, and leverages Conditional Random Fields to perform sequence labeling. We evaluate our proposal on a large dataset of diverse co-speech gestures in task-oriented face- to-face dialogues. The results consistently demonstrate that our method significantly outperforms strong baseline mod- els in detecting gesture strokes. Furthermore, applying Transformer encoders to learn contextual embeddings from movement sequences substantially improves gesture unit detection. These results highlight our framework’s capacity to capture the fine-grained dynamics of co-speech gesture phases, paving the way for more nuanced and accurate gesture detection and analysis."
 }
 
 
