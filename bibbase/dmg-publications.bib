@@ -7,7 +7,7 @@
     url ="../papers/GhalebEtAl-WAVC2024.pdf",
     url_supp = "../papers/GhalebEtAl-WAVC2024-supp.pdf",
     url_github ="https://github.com/EsamGhaleb/Multi-Phase-Gesture-Detection",
-    note = "To appear", 
+    note = "To appear",
     abstract = "Gestures are integral components of face-to-face communication. They unfold over time, often following predictable movement phases of preparation, stroke, and re- traction. Yet, the prevalent approach to automatic gesture detection treats the problem as binary classification, classifying a segment as either containing a gesture or not, thus failing to capture its inherently sequential and contextual nature. To address this, we introduce a novel framework that reframes the task as a multi-phase sequence labeling problem rather than binary classification. Our model processes sequences of skeletal movements over time windows, uses Transformer encoders to learn contextual embeddings, and leverages Conditional Random Fields to perform sequence labeling. We evaluate our proposal on a large dataset of diverse co-speech gestures in task-oriented face- to-face dialogues. The results consistently demonstrate that our method significantly outperforms strong baseline mod- els in detecting gesture strokes. Furthermore, applying Transformer encoders to learn contextual embeddings from movement sequences substantially improves gesture unit detection. These results highlight our framework’s capacity to capture the fine-grained dynamics of co-speech gesture phases, paving the way for more nuanced and accurate gesture detection and analysis."
 }
 
@@ -17,8 +17,8 @@
     author = "Mario Giulianelli and Sarenne Wallbridge and Raquel Fern{\'a}ndez",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     year = "2023",
-    url ="https://arxiv.org/abs/2310.13676",
-    note ="To appear"
+    url ="https://aclanthology.org/2023.emnlp-main.343/",
+    abstract = "We present information value, a measure which quantifies the predictability of an utterance relative to a set of plausible alternatives. We introduce a method to obtain interpretable estimates of information value using neural text generators, and exploit their psychometric predictive power to investigate the dimensions of predictability that drive human comprehension behaviour. Information value is a stronger predictor of utterance acceptability in written and spoken dialogue than aggregates of token-level surprisal and it is complementary to surprisal for predicting eye-tracked reading times."
 }
 
 @inproceedings{surikuchi-etal-2023-emnlp,
@@ -26,8 +26,8 @@
     author = "Aditya Surikuchi and Sandro Pezzelle and Raquel Fern{\'a}ndez",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     year = "2023",
-    url ="https://arxiv.org/abs/2310.17770",
-    note ="To appear"
+    url ="https://aclanthology.org/2023.emnlp-main.202/",
+    abstract = "A proper evaluation of stories generated for a sequence of images{---}the task commonly referred to as visual storytelling{---}must consider multiple aspects, such as coherence, grammatical correctness, and visual grounding. In this work, we focus on evaluating the degree of grounding, that is, the extent to which a story is about the entities shown in the images. We analyze current metrics, both designed for this purpose and for general vision-text alignment. Given their observed shortcomings, we propose a novel evaluation tool, GROOViST, that accounts for cross-modal dependencies, \textit{temporal misalignments} (the fact that the order in which entities appear in the story and the image sequence may not match), and human intuitions on visual grounding. An additional advantage of GROOViST is its modular design, where the contribution of each component can be assessed and interpreted individually."
 }
 
 @inproceedings{chen-etal-2023-emnlp,
@@ -35,8 +35,8 @@
     author = "Xinyi Chen and Raquel Fern{\'a}ndez and Sandro Pezzelle",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     year = "2023",
-    url ="https://arxiv.org/abs/2310.15061",
-    note ="To appear"
+    url ="https://aclanthology.org/2023.emnlp-main.356/",
+    abstract = "Despite the impressive performance achieved by pre-trained language-and-vision models in downstream tasks, it remains an open question whether this reflects a proper understanding of image-text interaction. In this work, we explore to what extent they handle basic linguistic constructions{---}active-passive voice, coordination, and relative clauses{---}that even preschool children can typically master. We present BLA, a novel, automatically constructed benchmark to evaluate multimodal models on these Basic Language Abilities. We show that different types of Transformer-based systems, such as CLIP, ViLBERT, and BLIP2, generally struggle with BLA in a zero-shot setting, in line with previous findings. Our experiments, in particular, show that most of the tested models only marginally benefit when fine-tuned or prompted with construction-specific samples. Yet, the generative BLIP2 shows promising trends, especially in an in-context learning setting. This opens the door to using BLA not only as an evaluation benchmark but also to improve models{'} basic language abilities."
 }
 
 @inproceedings{qi-etal-2023-emnlp,
@@ -44,8 +44,8 @@
     author = "Jirui Qi and Raquel Fern{\'a}ndez and Arianna Bisazza",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     year = "2023",
-    url ="arxiv.org/abs/2310.10378",
-    note ="To appear",
+    url ="https://aclanthology.org/2023.emnlp-main.658/",
+    bibbase_note = {Outstanding Paper Award at EMNLP'23 and a Best Data Award at the GenBench Workshop},
     abstract ="Multilingual large-scale Pretrained Language Models (PLMs) have been shown to store considerable amounts of factual knowledge, but large variations are observed across languages. With the ultimate goal of ensuring that users with different language backgrounds obtain consistent feedback from the same model, we study the cross-lingual consistency (CLC) of factual knowledge in various multilingual PLMs. To this end, we propose a Ranking-based Consistency (RankC) metric to evaluate knowledge consistency across languages independently from accuracy. Using this metric, we conduct an in-depth analysis of the determining factors for CLC, both at model level and at language-pair level. Among other results, we find that increasing model size leads to higher factual probing accuracy in most languages, but does not improve cross-lingual consistency. Finally, we conduct a case study on CLC when new factual associations are inserted in the PLMs via model editing. Results on a small sample of facts inserted in English reveal a clear pattern whereby the new piece of knowledge transfers only to languages with which English has a high RankC score."
 }
 
@@ -55,10 +55,9 @@
     author = " Giulianelli, Mario and Baan, Joris and Aziz, Wilker and Fern{\'a}ndez, Raquel and Plank, Barbara",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     year = "2023",
-    note ="To appear",
-    url = "https://arxiv.org/abs/2305.11707",
-    abstract = "In Natural Language Generation (NLG) tasks, for any input, multiple communicative goals are plausible, and any goal can be put into words, or produced, in multiple ways. We characterise the extent to which human production varies lexically, syntactically, and semantically across four NLG tasks, connecting human production variability to aleatoric or data uncertainty. We then inspect the space of output strings shaped by a generation system's predicted probability distribution and decoding algorithm to probe its uncertainty. For each test input, we measure the generator's calibration to human production variability. Following this instance-level approach, we analyse NLG models and decoding strategies, demonstrating that probing a generator with multiple samples and, when possible, multiple references, provides the level of detail necessary to gain understanding of a model's representation of uncertainty."
- }
+    url = "https://aclanthology.org/2023.emnlp-main.887/",
+    abstract = "In Natural Language Generation (NLG) tasks, for any input, multiple communicative goals are plausible, and any goal can be put into words, or produced, in multiple ways. We characterise the extent to which human production varies lexically, syntactically, and semantically across four NLG tasks, connecting human production variability to aleatoric or data uncertainty. We then inspect the space of output strings shaped by a generation system{'}s predicted probability distribution and decoding algorithm to probe its uncertainty. For each test input, we measure the generator{'}s calibration to human production variability. Following this instance-level approach, we analyse NLG models and decoding strategies, demonstrating that probing a generator with multiple samples and, when possible, multiple references, provides the level of detail necessary to gain understanding of a model{'}s representation of uncertainty."
+}
 
 
 
