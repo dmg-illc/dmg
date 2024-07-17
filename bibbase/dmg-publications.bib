@@ -11,6 +11,16 @@ abstract={Generative large language models (LLMs) have been shown to exhibit har
 commonly held across these languages. We further complement MBBQ with a parallel control dataset to measure task performance on the question-answering task independently of bias. Our results based on several open-source and proprietary LLMs confirm that some non-English languages suffer from bias more than English, even when controlling for cultural shifts. Moreover, we observe significant cross-lingual differences in bias behaviour for all except the most accurate models. With the release of MBBQ, we hope to encourage further research on bias in multilingual settings. The dataset and code are available at https://github.com/Veranep/MBBQ.
 }
 
+@article{judgebench-arxiv-2024,
+title={LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks},
+author={Anna Bavaresco and Raffaella Bernardi and Leonardo Bertolazzi and Desmond Elliott and Raquel Fern\'{a}ndez and Albert Gatt and Esam Ghaleb and Mario Giulianelli and Michael Hanna and Alexander Koller and Andr\'{e} F. T. Martins and Philipp Mondorf and Vera Neplenbroek and Sandro Pezzelle and Barbara Plank and David Schlangen and Alessandro Suglia and Aditya K. Surikuchi and Ece Takmaz and Alberto Testoni},
+year={2024},
+url={https://arxiv.org/abs/2406.18403},
+url_github = {https://github.com/dmg-illc/JUDGE-BENCH},
+note={Preprint.},
+abstract={There is an increasing trend towards evaluating NLP models with LLM-generated judgments instead of human judgments. In the absence of a comparison against human data, this raises concerns about the validity of these evaluations; in case they are conducted with proprietary models, this also raises concerns over reproducibility. We provide JUDGE-BENCH, a collection of 20 NLP datasets with human annotations, and comprehensively evaluate 11 current LLMs, covering both open-weight and proprietary models, for their ability to replicate the annotations. Our evaluations show that each LLM exhibits a large variance across datasets in its correlation to human judgments. We conclude that LLMs are not yet ready to systematically replace human judges in NLP.
+}
+
 @inproceedings{bavaresco-etal-acl-2024,
 title={Don't Buy it! Reassessing the Ad Understanding Abilities of Contrastive Multimodal Models},
 author={Anna Bavaresco and Alberto Testoni and Raquel Fern{\'a}ndez},
