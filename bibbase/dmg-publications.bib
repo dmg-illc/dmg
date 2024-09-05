@@ -1,3 +1,12 @@
+@article{Bavaresco-deHeerKloots-etal-arxiv-2024,
+title={Modelling Multimodal Integration in Human Concept Processing with Vision-and-Language Models},
+author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
+year={2024},
+url={https://arxiv.org/abs/2407.17914},
+note={Preprint.},
+abstract={Representations from deep neural networks (DNNs) have proven remarkably predictive of neural activity involved in both visual and linguistic processing. Despite these successes, most studies to date concern unimodal DNNs, encoding either visual or textual input but not both. Yet, there is growing evidence that human meaning representations integrate linguistic and sensory-motor information. Here we investigate whether the integration of multimodal information operated by current vision-and-language DNN models (VLMs) leads to representations that are more aligned with human brain activity than those obtained by language-only and vision-only DNNs. We focus on fMRI responses recorded while participants read concept words in the context of either a full sentence or an accompanying picture. Our results reveal that VLM representations correlate more strongly than language- and vision-only DNNs with activations in brain areas functionally related to language processing. A comparison between different types of visuo-linguistic architectures shows that recent generative VLMs tend to be less brain-aligned than previous architectures with lower performance on downstream applications. Moreover, through an additional analysis comparing brain vs. behavioural alignment across multiple VLMs, we show that -- with one remarkable exception -- representations that strongly align with behavioural judgments do not correlate highly with brain responses. This indicates that brain similarity does not go hand in hand with behavioural similarity, and vice versa.
+}
+
 @article{IAS-psyarxiv-2024,
 title={Incremental Alternative Sampling as a Lens into the Temporal and Representational Resolution of Linguistic Prediction},
 author={Mario Giulianelli and Sarenne Wallbridge and Ryan Cotterell and Raquel Fern\'{a}ndez},
@@ -7,6 +16,14 @@ note={Preprint.},
 abstract={This study presents a new model of processing difficulty rooted in resource allocation theory, Incremental Alternative Sampling (IAS). Differential difficulty for a linguistic unit is estimated with respect to a set of plausible alter-natives.  Compared to a surprisal-based model, it prescribes a more efficient use of a comprehender’s predicted continuations of partial linguistic stimuli thanks to (i) an expressive representation function that captures different lev-els of linguistic processing and (ii) the bootstrapping of long-horizon prediction error.  Our results show that IAS estimates of processing difficulty, computed with autoregressive language models via Monte Carlo estimation, have greater  predictive  power  than  surprisal  extracted  from  the  same  language models for most neural and behavioural responses under analysis---including reading times, event-related brain potentials, cloze and predictability judgements.   Perhaps  more  importantly,  IAS  estimates  provide  insight  into  the nature  of  the  predictive  mechanisms  that  generate  those  responses  during language comprehension.  Variability in neural and behavioural responses is well  explained  by  different  combinations  of  the  representational  and  temporal  resolution  of  prediction.   Processing  difficulty  calculated  at  varying representational domains reflects known relations to lexical, constructional, and structural levels of linguistic processing, and forecast horizons are deter-mined by a combination of experimental task setup and naturalness of the stimulus.   Beyond  enriching  psycholinguistic  models,  IAS  can  also  provide insights into the information processing mechanisms of computational language models.  Our analysis of next-word surprisal under the lenses of IAS reveals that,  despite the metric’s seemingly narrow focus on the upcoming word, language model surprisal implicitly captures anticipatory processing of multiple future lexical items.
 }
 
+@article{surikuchi-etal-arxiv-2024,
+title={Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition},
+author={Aditya K. Surikuchi and Raquel Fern\'{a}ndez and Sandro Pezzelle},
+year={2024},
+url={https://arxiv.org/abs/2407.04559},
+note={Preprint.},
+abstract={Visual storytelling consists in generating a natural language story given a temporally ordered sequence of images. This task is not only challenging for models, but also very difficult to evaluate with automatic metrics since there is no consensus about what makes a story 'good'. In this paper, we introduce a novel method that measures story quality in terms of human likeness regarding three key aspects highlighted in previous work: visual grounding, coherence, and repetitiveness. We then use this method to evaluate the stories generated by several models, showing that the foundation model LLaVA obtains the best result, but only slightly so compared to TAPM, a 50-times smaller visual storytelling model. Upgrading the visual and language components of TAPM results in a model that yields competitive performance with a relatively low number of parameters. Finally, we carry out a human evaluation study, whose results suggest that a 'good' story may require more than a human-like level of visual grounding, coherence, and repetition.
+}
 
 @article{judgebench-arxiv-2024,
 title={LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks},
@@ -44,9 +61,8 @@ title={MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative
 author={Vera Neplenbroek and Arianna Bisazza and Raquel Fern{\'a}ndez},
 booktitle={Proceedings of the Conference on Language Modeling (COLM)},
 year={2024},
-url={https://arxiv.org/abs/2406.07243},
+url={https://openreview.net/pdf?id=X9yV4lFHt4},
 url_github = {https://github.com/Veranep/MBBQ},
-note={To appear.},
 abstract={Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user. Motivated by this, we investigate whether the social stereotypes exhibited by LLMs differ as a function of the language used to prompt them, while controlling for cultural differences and task accuracy. To this end, we present MBBQ (Multilingual Bias Benchmark for Question-answering), a carefully curated version of the English BBQ dataset extended to Dutch, Spanish, and Turkish, which measures stereotypes
 commonly held across these languages. We further complement MBBQ with a parallel control dataset to measure task performance on the question-answering task independently of bias. Our results based on several open-source and proprietary LLMs confirm that some non-English languages suffer from bias more than English, even when controlling for cultural shifts. Moreover, we observe significant cross-lingual differences in bias behaviour for all except the most accurate models. With the release of MBBQ, we hope to encourage further research on bias in multilingual settings. The dataset and code are available at https://github.com/Veranep/MBBQ.
 }
