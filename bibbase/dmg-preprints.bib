@@ -22,6 +22,29 @@
   abstract = {A common assumption in Computational Linguistics is that text representations learnt by multimodal models are richer and more human-like than those by language-only models, as they are grounded in images or audio -- similar to how human language is grounded in real-world experiences. However, empirical studies checking whether this is true are largely lacking. We address this gap by comparing word representations from contrastive multimodal models vs. language-only ones in the extent to which they capture experiential information -- as defined by an existing norm-based 'experiential model' -- and align with human fMRI responses. Our results indicate that, surprisingly, language-only models are superior to multimodal ones in both respects. Additionally, they learn more unique brain-relevant semantic information beyond that shared with the experiential model. Overall, our study highlights the need to develop computational models that better integrate the complementary semantic information provided by multimodal data sources.}
 }
 
+@article{Bavaresco-deHeerKloots-etal-arxiv-2025,
+title={Modelling Multimodal Integration in Human Concept Processing with Vision-Language Models},
+author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
+journal = {ArXiv},
+year={Preprints},
+url={https://arxiv.org/abs/2407.17914},
+note={2025.},
+abstract={Text representations from language models have proven remarkably predictive of human neural activity involved in language processing, 
+with the recent transformer-based models outperforming previous architectures in downstream tasks and prediction of brain responses. 
+However, the word representations learnt by language-only models may be limited in that they lack sensory information from other modalities, 
+which several cognitive and neuroscience studies showed to be reflected in human meaning representations. Here, we leverage current pre-trained 
+vision-language models (VLMs) to investigate whether the integration of visuo-linguistic information they operate leads to representations 
+that are more aligned with human brain activity than those obtained by models trained with language-only input. We focus on fMRI responses 
+recorded while participants read concept words in the context of either a full sentence or a picture. Our results reveal that VLM representations 
+correlate more strongly than those by language-only models with activations in brain areas functionally related to language processing. 
+Additionally, we find that transformer-based vision-language encoders -- e.g., LXMERT and VisualBERT -- yield more brain-aligned representations 
+than generative VLMs, whose autoregressive abilities do not seem to provide an advantage when modelling single words. Finally, our ablation 
+analyses suggest that the high brain alignment achieved by some of the VLMs we evaluate results from semantic information acquired specifically 
+during multimodal pretraining as opposed to being already encoded in their unimodal modules. Altogether, our findings indicate an advantage of 
+multimodal models in predicting human brain activations, which reveals that modelling language and vision integration has the potential to 
+capture the multimodal nature of human concept representations.}
+}
+
 @Article{Momente-etal-arxiv-2025,
   title={Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests}, 
   author={Filippo Moment\`{e} and Alessandro Suglia and Mario Giulianelli and Ambra Ferrari and Alexander Koller and Oliver Lemon and David Schlangen and Raquel Fern\'{a}ndez and Raffaella Bernardi},
@@ -49,27 +72,6 @@
   note={2024.},
   url={https://arxiv.org/abs/2412.13835},
   abstract={Ambiguity resolution is key to effective communication. While humans effortlessly address ambiguity through conversational grounding strategies, the extent to which current language models can emulate these strategies remains unclear. In this work, we examine referential ambiguity in image-based question answering by introducing RACQUET, a carefully curated dataset targeting distinct aspects of ambiguity. Through a series of evaluations, we reveal significant limitations and problems of overconfidence of state-of-the-art large multimodal language models in addressing ambiguity in their responses. The overconfidence issue becomes particularly relevant for RACQUET-BIAS, a subset designed to analyze a critical yet underexplored problem: failing to address ambiguity leads to stereotypical, socially biased responses. Our results underscore the urgency of equipping models with robust strategies to deal with uncertainty without resorting to undesirable stereotypes.}
-}
-
-@article{Bavaresco-deHeerKloots-etal-arxiv-2024,
-title={Modelling Multimodal Integration in Human Concept Processing with Vision-and-Language Models},
-author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
-journal = {ArXiv},
-year={Preprints},
-url={https://arxiv.org/abs/2407.17914},
-note={2024.},
-abstract={Representations from deep neural networks (DNNs) have proven remarkably predictive of neural activity involved in both visual and 
-linguistic processing. Despite these successes, most studies to date concern unimodal DNNs, encoding either visual or textual input but not both. 
-Yet, there is growing evidence that human meaning representations integrate linguistic and sensory-motor information. 
-Here we investigate whether the integration of multimodal information operated by current vision-and-language DNN models (VLMs) 
-leads to representations that are more aligned with human brain activity than those obtained by language-only and vision-only DNNs. 
-We focus on fMRI responses recorded while participants read concept words in the context of either a full sentence or an accompanying picture. 
-Our results reveal that VLM representations correlate more strongly than language- and vision-only DNNs with activations in brain 
-areas functionally related to language processing. A comparison between different types of visuo-linguistic architectures shows that 
-recent generative VLMs tend to be less brain-aligned than previous architectures with lower performance on downstream applications. 
-Moreover, through an additional analysis comparing brain vs. behavioural alignment across multiple VLMs, we show that -- 
-with one remarkable exception -- representations that strongly align with behavioural judgments do not correlate highly with brain responses. 
-This indicates that brain similarity does not go hand in hand with behavioural similarity, and vice versa.}
 }
 
 @article{IAS-psyarxiv-2024,
