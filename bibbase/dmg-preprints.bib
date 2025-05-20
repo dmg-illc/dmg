@@ -55,15 +55,6 @@ capture the multimodal nature of human concept representations.}
   abstract = {We examine three evaluation paradigms: large question-answering benchmarks (e.g., MMLU and BBH), interactive games (e.g., Signalling Games or Taboo), and cognitive tests (e.g., for working memory or theory of mind). First, we investigate which of the former two-benchmarks or games-is most effective at discriminating LLMs of varying quality. Then, inspired by human cognitive assessments, we compile a suite of targeted tests that measure cognitive abilities deemed essential for effective language use, and we investigate their correlation with model performance in benchmarks and games. Our analyses reveal that interactive games are superior to standard benchmarks in discriminating models. Causal and logical reasoning correlate with both static and interactive tests, while differences emerge regarding core executive functions and social/emotional skills, which correlate more with games. We advocate the development of new interactive benchmarks and targeted cognitive tasks inspired by assessing human abilities but designed specifically for LLMs.}
 }
 
-@article{Neplenbroek-etal-arxiv-2025,
-      title={Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation}, 
-      author={Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
-      year = {Preprints},
-      note={2024.},
-      url={https://arxiv.org/abs/2412.14050},
-      abstract = {Recent generative large language models (LLMs) show remarkable performance in non-English languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model's bias and toxicity, but also on its ability to produce fluent and diverse text. We reduce biases by finetuning on curated non-harmful text, but find only direct preference optimization to be effective for mitigating toxicity. The mitigation caused by applying these methods in English also transfers to non-English languages. We find evidence that the extent to which transfer takes place can be predicted by the amount of data in a given language present in the model's pretraining data. However, this transfer of bias and toxicity mitigation often comes at the expense of decreased language generation ability in non-English languages, highlighting the importance of developing language-specific bias and toxicity mitigation methods.}
-}
-
 @article{Testoni-etal-arxiv-2024,
   author = 	 {Alberto Testoni and Barbara Plank and Raquel Fern\'{a}ndez},
   title = 	 {RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs},
@@ -96,23 +87,6 @@ determined by a combination of experimental task setup and naturalness of the st
 IAS  can  also  provide insights into the information processing mechanisms of computational language models.  
 Our analysis of next-word surprisal under the lenses of IAS reveals that,  despite the metric’s seemingly narrow focus on the upcoming word, 
 language model surprisal implicitly captures anticipatory processing of multiple future lexical items.}
-}
-
-@article{judgebench-arxiv-2024,
-title={LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks},
-author={Anna Bavaresco and Raffaella Bernardi and Leonardo Bertolazzi and Desmond Elliott and Raquel Fern\'{a}ndez and Albert Gatt and Esam Ghaleb and Mario Giulianelli and Michael Hanna and Alexander Koller and Andr\'{e} F. T. Martins and Philipp Mondorf and Vera Neplenbroek and Sandro Pezzelle and Barbara Plank and David Schlangen and Alessandro Suglia and Aditya K. Surikuchi and Ece Takmaz and Alberto Testoni},
-journal = {ArXiv},
-year={Preprints},
-url={https://arxiv.org/abs/2406.18403},
-url_github = {https://github.com/dmg-illc/JUDGE-BENCH},
-note={2024.},
-abstract={There is an increasing trend towards evaluating NLP models with LLM-generated judgments instead of human judgments. 
-In the absence of a comparison against human data, this raises concerns about the validity of these evaluations; 
-in case they are conducted with proprietary models, this also raises concerns over reproducibility. We provide JUDGE-BENCH, 
-a collection of 20 NLP datasets with human annotations, and comprehensively evaluate 11 current LLMs, covering both open-weight 
-and proprietary models, for their ability to replicate the annotations. Our evaluations show that each LLM exhibits a large 
-variance across datasets in its correlation to human judgments. We conclude that LLMs are not yet ready to systematically 
-replace human judges in NLP.}
 }
 
 @article{ghaleb-etal-2024-arxiv,
