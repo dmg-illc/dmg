@@ -1,6 +1,44 @@
+@inproceedings{judgebench-arxiv-2024,
+  title={LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks},
+  author={Anna Bavaresco and Raffaella Bernardi and Leonardo Bertolazzi and Desmond Elliott and Raquel Fern\'{a}ndez and Albert Gatt and Esam Ghaleb and Mario Giulianelli and Michael Hanna and Alexander Koller and Andr\'{e} F. T. Martins and Philipp Mondorf and Vera Neplenbroek and Sandro Pezzelle and Barbara Plank and David Schlangen and Alessandro Suglia and Aditya K. Surikuchi and Ece Takmaz and Alberto Testoni},
+  year={2025},
+  note={To appear.},
+  booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL 2025)},     
+  url={https://arxiv.org/abs/2406.18403},
+  url_github = {https://github.com/dmg-illc/JUDGE-BENCH},
+  note={To appear.},
+  abstract={There is an increasing trend towards evaluating NLP models with LLM-generated judgments instead of human judgments. 
+In the absence of a comparison against human data, this raises concerns about the validity of these evaluations; 
+in case they are conducted with proprietary models, this also raises concerns over reproducibility. We provide JUDGE-BENCH, 
+a collection of 20 NLP datasets with human annotations, and comprehensively evaluate 11 current LLMs, covering both open-weight 
+and proprietary models, for their ability to replicate the annotations. Our evaluations show that each LLM exhibits a large 
+variance across datasets in its correlation to human judgments. We conclude that LLMs are not yet ready to systematically 
+replace human judges in NLP.}
+}
+
+@inproceedings{ghaleb-etal-arxiv-2025, 
+  author={Ghaleb, Esam and Khaertdinov, Bulat and {\"O}zy{\"u}rek, Asl{\i} and Fern{\'a}ndez, Raquel},
+  title={I see what you mean: Co-Speech Gestures for Reference Resolution in Multimodal Dialogue},
+  booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL Findings)},
+  note={To appear.},
+  url={https://arxiv.org/abs/2503.00071},
+  url_github={https://github.com/EsamGhaleb/MultimodalReferenceResolution},
+  abstract={In face-to-face interaction, we use multiple modalities, including speech and gestures, to communicate information and resolve references to objects. However, how representational co-speech gestures refer to objects remains understudied from a computational perspective. In this work, we address this gap by introducing a multimodal reference resolution task centred on representational gestures, while simultaneously tackling the challenge of learning robust gesture embeddings. We propose a self-supervised pre-training approach to gesture representation learning that grounds body movements in spoken language. Our experiments show that the learned embeddings align with expert annotations and have significant predictive power. Moreover, reference resolution accuracy further improves when (1) using multimodal gesture representations, even when speech is unavailable at inference time, and (2) leveraging dialogue history. Overall, our findings highlight the complementary roles of gesture and speech in reference resolution, offering a step towards more naturalistic models of human-machine interaction.}
+}
+
+@inproceedings{Neplenbroek-etal-arxiv-2025,
+      title={Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation}, 
+      author={Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
+      year = {2025},
+      booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL Findings)},
+      note={To appear.},
+      url={https://arxiv.org/abs/2412.14050},
+      abstract = {Recent generative large language models (LLMs) show remarkable performance in non-English languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model's bias and toxicity, but also on its ability to produce fluent and diverse text. We reduce biases by finetuning on curated non-harmful text, but find only direct preference optimization to be effective for mitigating toxicity. The mitigation caused by applying these methods in English also transfers to non-English languages. We find evidence that the extent to which transfer takes place can be predicted by the amount of data in a given language present in the model's pretraining data. However, this transfer of bias and toxicity mitigation often comes at the expense of decreased language generation ability in non-English languages, highlighting the importance of developing language-specific bias and toxicity mitigation methods.}
+}
+
 @inproceedings{surikuchi-etal-text2story-2025,
   title={On the Challenges in Evaluating Visually Grounded Stories},
-  authors{Aditya K. Surikuchi and Raquel Fern\'{a}ndez and Sandro Pezzelle},
+  author={Aditya K. Surikuchi and Raquel Fern\'{a}ndez and Sandro Pezzelle},
   year={2025},
   booktitle={Proceedings of the Text2Story’25 Workshop},
   url={https://ceur-ws.org/Vol-3964/paper19.pdf},
