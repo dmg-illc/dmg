@@ -1,5 +1,15 @@
 
 
+@Article{neplenbroek-etal-arxiv-2025,
+  author = 	 {Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
+  title = 	 {Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization},
+  journal = 	 {ArXiv},
+  year = 	 {Preprints},
+  note = 	 {2025},
+  url = 	 {https://arxiv.org/abs/2505.16467},
+  url-github = {https://github.com/Veranep/implicit-personalization-stereotypes},
+  abstract = 	 {Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit personalization. Prior work has shown that such inferences can lead to lower quality responses for users assumed to be from minority groups, even when no demographic information is explicitly provided. In this work, we systematically explore how LLMs respond to stereotypical cues using controlled synthetic conversations, by analyzing the models' latent user representations through both model internals and generated answers to targeted user questions. Our findings reveal that LLMs do infer demographic attributes based on these stereotypical signals, which for a number of groups even persists when the user explicitly identifies with a different demographic group. Finally, we show that this form of stereotype-driven implicit personalization can be effectively mitigated by intervening on the model's internal representations using a trained linear probe to steer them toward the explicitly stated identity. Our results highlight the need for greater transparency and control in how LLMs represent user identity.}
+}
 
 @Article{Horst-etal-arxiv-2025,
   author = 	 {Nicola Horst and Davide Mazzaccara and Antonia Schmidt and Michael Sullivan and Filippo Momentè and Luca Franceschetti and Philipp Sadler and Sherzod Hakimov and Alberto Testoni and Raffaella Bernardi and Raquel Fern\'{a}ndez and Alexander Koller and Oliver Lemon and David Schlangen and Mario Giulianelli and Alessandro Suglia},
@@ -10,16 +20,6 @@
   url = 	 {http://arxiv.org/abs/2504.08590},
   url-github = {https://github.com/lm-playpen/playpen},
   abstract = 	 {Are we running out of learning signal? Predicting the next word in an existing text has turned out to be a powerful signal, at least at scale. But there are signs that we are running out of this resource. In recent months, interaction between learner and feedback-giver has come into focus, both for "alignment" (with a reward model judging the quality of instruction following attempts) and for improving "reasoning" (process- and outcome-based verifiers judging reasoning steps). In this paper, we explore to what extent synthetic interaction in what we call Dialogue Games -- goal-directed and rule-governed activities driven predominantly by verbal actions -- can provide a learning signal, and how this signal can be used. We introduce an environment for producing such interaction data (with the help of a Large Language Model as counterpart to the learner model), both offline and online. We investigate the effects of supervised fine-tuning on this data, as well as reinforcement learning setups such as DPO, and GRPO; showing that all of these approaches achieve some improvements in in-domain games, but only GRPO demonstrates the ability to generalise to out-of-domain games as well as retain competitive performance in reference-based tasks. We release the framework and the baseline training setups in the hope that this can foster research in this promising new direction.}
-}
-
-@Article{Bavaresco-Fernandez-arxiv-2025,
-  author = 	 {Anna Bavaresco and Raquel Fern\'{a}ndez},
-  title = 	 {Experiential Semantic Information and Brain Alignment: Are Multimodal Models Better than Language Models?},
-  journal = 	 {ArXiv},
-  year = 	 {Preprints},
-  note = {2025},
-  url = {https://arxiv.org/pdf/2504.00942},
-  abstract = {A common assumption in Computational Linguistics is that text representations learnt by multimodal models are richer and more human-like than those by language-only models, as they are grounded in images or audio -- similar to how human language is grounded in real-world experiences. However, empirical studies checking whether this is true are largely lacking. We address this gap by comparing word representations from contrastive multimodal models vs. language-only ones in the extent to which they capture experiential information -- as defined by an existing norm-based 'experiential model' -- and align with human fMRI responses. Our results indicate that, surprisingly, language-only models are superior to multimodal ones in both respects. Additionally, they learn more unique brain-relevant semantic information beyond that shared with the experiential model. Overall, our study highlights the need to develop computational models that better integrate the complementary semantic information provided by multimodal data sources.}
 }
 
 @article{Bavaresco-deHeerKloots-etal-arxiv-2025,
