@@ -9,13 +9,12 @@
   abstract = {A common assumption in Computational Linguistics is that text representations learnt by multimodal models are richer and more human-like than those by language-only models, as they are grounded in images or audio -- similar to how human language is grounded in real-world experiences. However, empirical studies checking whether this is true are largely lacking. We address this gap by comparing word representations from contrastive multimodal models vs. language-only ones in the extent to which they capture experiential information -- as defined by an existing norm-based 'experiential model' -- and align with human fMRI responses. Our results indicate that, surprisingly, language-only models are superior to multimodal ones in both respects. Additionally, they learn more unique brain-relevant semantic information beyond that shared with the experiential model. Overall, our study highlights the need to develop computational models that better integrate the complementary semantic information provided by multimodal data sources.}
 }
 
-@inproceedings{judgebench-arxiv-2024,
+@inproceedings{judgebench-acl-2024,
   title={LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks},
   author={Anna Bavaresco and Raffaella Bernardi and Leonardo Bertolazzi and Desmond Elliott and Raquel Fern\'{a}ndez and Albert Gatt and Esam Ghaleb and Mario Giulianelli and Michael Hanna and Alexander Koller and Andr\'{e} F. T. Martins and Philipp Mondorf and Vera Neplenbroek and Sandro Pezzelle and Barbara Plank and David Schlangen and Alessandro Suglia and Aditya K. Surikuchi and Ece Takmaz and Alberto Testoni},
   year={2025},
-  note={To appear.},
   booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL 2025)},     
-  url={https://arxiv.org/abs/2406.18403},
+  url={https://aclanthology.org/2025.acl-short.20/},
   url_github = {https://github.com/dmg-illc/JUDGE-BENCH},
   abstract={There is an increasing trend towards evaluating NLP models with LLM-generated judgments instead of human judgments. 
 In the absence of a comparison against human data, this raises concerns about the validity of these evaluations; 
@@ -26,24 +25,22 @@ variance across datasets in its correlation to human judgments. We conclude that
 replace human judges in NLP.}
 }
 
-@inproceedings{ghaleb-etal-arxiv-2025, 
+@inproceedings{ghaleb-etal-acl-2025, 
   author={Ghaleb, Esam and Khaertdinov, Bulat and {\"O}zy{\"u}rek, Asl{\i} and Fern{\'a}ndez, Raquel},
   title={I see what you mean: Co-Speech Gestures for Reference Resolution in Multimodal Dialogue},
   booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL Findings)},
   year={2025},
-  note={To appear.},
-  url={https://arxiv.org/abs/2503.00071},
+  url={https://aclanthology.org/2025.findings-acl.682/},
   url_github={https://github.com/EsamGhaleb/MultimodalReferenceResolution},
   abstract={In face-to-face interaction, we use multiple modalities, including speech and gestures, to communicate information and resolve references to objects. However, how representational co-speech gestures refer to objects remains understudied from a computational perspective. In this work, we address this gap by introducing a multimodal reference resolution task centred on representational gestures, while simultaneously tackling the challenge of learning robust gesture embeddings. We propose a self-supervised pre-training approach to gesture representation learning that grounds body movements in spoken language. Our experiments show that the learned embeddings align with expert annotations and have significant predictive power. Moreover, reference resolution accuracy further improves when (1) using multimodal gesture representations, even when speech is unavailable at inference time, and (2) leveraging dialogue history. Overall, our findings highlight the complementary roles of gesture and speech in reference resolution, offering a step towards more naturalistic models of human-machine interaction.}
 }
 
-@inproceedings{Neplenbroek-etal-arxiv-2025,
+@inproceedings{Neplenbroek-etal-acl-2025,
       title={Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation}, 
       author={Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
       year = {2025},
       booktitle={Proceedings of the of the 63rd Conference of the Association for Computational Linguistics (ACL Findings)},
-      note={To appear.},
-      url={https://arxiv.org/abs/2412.14050},
+      url={https://aclanthology.org/2025.findings-acl.145/},
       abstract = {Recent generative large language models (LLMs) show remarkable performance in non-English languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model's bias and toxicity, but also on its ability to produce fluent and diverse text. We reduce biases by finetuning on curated non-harmful text, but find only direct preference optimization to be effective for mitigating toxicity. The mitigation caused by applying these methods in English also transfers to non-English languages. We find evidence that the extent to which transfer takes place can be predicted by the amount of data in a given language present in the model's pretraining data. However, this transfer of bias and toxicity mitigation often comes at the expense of decreased language generation ability in non-English languages, highlighting the importance of developing language-specific bias and toxicity mitigation methods.}
 }
 
