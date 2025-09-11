@@ -8,40 +8,6 @@
       abstract = {Despite recent progress in vision-language models (VLMs), holistic understanding of long-form video content remains a significant challenge, partly due to limitations in current benchmarks. Many focus on peripheral, ``needle-in-a-haystack'' details, encouraging context-insensitive retrieval over deep comprehension. Others rely on large-scale, semi-automatically generated questions (often produced by language models themselves) that are easier for models to answer but fail to reflect genuine understanding. In this paper, we introduce MF^2, a new benchmark for evaluating whether models can comprehend, consolidate, and recall key narrative information from full-length movies (50-170 minutes long). MF2 includes over 50 full-length, open-licensed movies, each paired with manually constructed sets of claim pairs -- one true (fact) and one plausible but false (fib), totalling over 850 pairs. These claims target core narrative elements such as character motivations and emotions, causal chains, and event order, and refer to memorable moments that humans can recall without rewatching the movie. Instead of multiple-choice formats, we adopt a binary claim evaluation protocol: for each pair, models must correctly identify both the true and false claims. This reduces biases like answer ordering and enables a more precise assessment of reasoning. Our experiments demonstrate that both open-weight and closed state-of-the-art models fall well short of human performance, underscoring the relative ease of the task for humans and their superior ability to retain and reason over critical narrative information -- an ability current VLMs lack.}
 }
 
-
-@Article{qi-chen-etal-arxiv-2025,
-  author = 	 {Jirui Qi and Shan Chen and Zidi Xiong and Raquel Fern\'{a}ndez and Danielle S. Bitterman and Arianna Bisazza},
-  title = 	 {When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy},
-  journal = 	 {ArXiv},
-  year = 	 {Preprints},
-  note = 	 {2025.},
-  url = 	 {https://arxiv.org/abs/2505.22888},
-  url-github = {https://github.com/Betswish/mCoT-XReasoning},
-  abstract = 	 {Recent Large Reasoning Models (LRMs) with thinking traces have shown strong performance on English reasoning tasks. However, their ability to think in other languages is less studied. This capability is as important as answer accuracy for real world applications because users may find the reasoning trace useful for oversight only when it is expressed in their own language. We comprehensively evaluate two leading families of LRMs on our XReasoning benchmark and find that even the most advanced models often revert to English or produce fragmented reasoning in other languages, revealing a substantial gap in multilingual reasoning. Prompt based interventions that force models to reason in the users language improve readability and oversight but reduce answer accuracy, exposing an important trade off. We further show that targeted post training on just 100 examples mitigates this mismatch, though some accuracy loss remains. Our results highlight the limited multilingual reasoning capabilities of current LRMs and outline directions for future work.}
-}
-
-@Article{neplenbroek-etal-arxiv-2025,
-  author = 	 {Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
-  title = 	 {Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization},
-  journal = 	 {ArXiv},
-  year = 	 {Preprints},
-  note = 	 {2025.},
-  url = 	 {https://arxiv.org/abs/2505.16467},
-  url-github = {https://github.com/Veranep/implicit-personalization-stereotypes},
-  abstract = 	 {Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit personalization. Prior work has shown that such inferences can lead to lower quality responses for users assumed to be from minority groups, even when no demographic information is explicitly provided. In this work, we systematically explore how LLMs respond to stereotypical cues using controlled synthetic conversations, by analyzing the models' latent user representations through both model internals and generated answers to targeted user questions. Our findings reveal that LLMs do infer demographic attributes based on these stereotypical signals, which for a number of groups even persists when the user explicitly identifies with a different demographic group. Finally, we show that this form of stereotype-driven implicit personalization can be effectively mitigated by intervening on the model's internal representations using a trained linear probe to steer them toward the explicitly stated identity. Our results highlight the need for greater transparency and control in how LLMs represent user identity.}
-}
-
-@Article{Horst-etal-arxiv-2025,
-  author = 	 {Nicola Horst and Davide Mazzaccara and Antonia Schmidt and Michael Sullivan and Filippo Momentè and Luca Franceschetti and Philipp Sadler and Sherzod Hakimov and Alberto Testoni and Raffaella Bernardi and Raquel Fern\'{a}ndez and Alexander Koller and Oliver Lemon and David Schlangen and Mario Giulianelli and Alessandro Suglia},
-  title = 	 {Playpen: An Environment for Exploring Learning Through Conversational Interaction},
-  journal = 	 {ArXiv},
-  year = 	 {Preprints},
-  note =         {2025.},
-  url = 	 {http://arxiv.org/abs/2504.08590},
-  url-github = {https://github.com/lm-playpen/playpen},
-  abstract = 	 {Are we running out of learning signal? Predicting the next word in an existing text has turned out to be a powerful signal, at least at scale. But there are signs that we are running out of this resource. In recent months, interaction between learner and feedback-giver has come into focus, both for "alignment" (with a reward model judging the quality of instruction following attempts) and for improving "reasoning" (process- and outcome-based verifiers judging reasoning steps). In this paper, we explore to what extent synthetic interaction in what we call Dialogue Games -- goal-directed and rule-governed activities driven predominantly by verbal actions -- can provide a learning signal, and how this signal can be used. We introduce an environment for producing such interaction data (with the help of a Large Language Model as counterpart to the learner model), both offline and online. We investigate the effects of supervised fine-tuning on this data, as well as reinforcement learning setups such as DPO, and GRPO; showing that all of these approaches achieve some improvements in in-domain games, but only GRPO demonstrates the ability to generalise to out-of-domain games as well as retain competitive performance in reference-based tasks. We release the framework and the baseline training setups in the hope that this can foster research in this promising new direction.}
-}
-
 @article{Bavaresco-deHeerKloots-etal-arxiv-2025,
 title={Modelling Multimodal Integration in Human Concept Processing with Vision-Language Models},
 author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
@@ -63,26 +29,6 @@ analyses suggest that the high brain alignment achieved by some of the VLMs we e
 during multimodal pretraining as opposed to being already encoded in their unimodal modules. Altogether, our findings indicate an advantage of 
 multimodal models in predicting human brain activations, which reveals that modelling language and vision integration has the potential to 
 capture the multimodal nature of human concept representations.}
-}
-
-@Article{Momente-etal-arxiv-2025,
-  title={Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests}, 
-  author={Filippo Moment\`{e} and Alessandro Suglia and Mario Giulianelli and Ambra Ferrari and Alexander Koller and Oliver Lemon and David Schlangen and Raquel Fern\'{a}ndez and Raffaella Bernardi},
-  year={Preprints},
-  journal = {ArXiv},
-  note={2025.},
-  url = {https://arxiv.org/abs/2502.14359},
-  abstract = {We examine three evaluation paradigms: large question-answering benchmarks (e.g., MMLU and BBH), interactive games (e.g., Signalling Games or Taboo), and cognitive tests (e.g., for working memory or theory of mind). First, we investigate which of the former two-benchmarks or games-is most effective at discriminating LLMs of varying quality. Then, inspired by human cognitive assessments, we compile a suite of targeted tests that measure cognitive abilities deemed essential for effective language use, and we investigate their correlation with model performance in benchmarks and games. Our analyses reveal that interactive games are superior to standard benchmarks in discriminating models. Causal and logical reasoning correlate with both static and interactive tests, while differences emerge regarding core executive functions and social/emotional skills, which correlate more with games. We advocate the development of new interactive benchmarks and targeted cognitive tasks inspired by assessing human abilities but designed specifically for LLMs.}
-}
-
-@article{Testoni-etal-arxiv-2024,
-  author = 	 {Alberto Testoni and Barbara Plank and Raquel Fern\'{a}ndez},
-  title = 	 {RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs},
-  journal = {ArXiv},
-  year = 	 {Preprints},
-  note={2024.},
-  url={https://arxiv.org/abs/2412.13835},
-  abstract={Ambiguity resolution is key to effective communication. While humans effortlessly address ambiguity through conversational grounding strategies, the extent to which current language models can emulate these strategies remains unclear. In this work, we examine referential ambiguity in image-based question answering by introducing RACQUET, a carefully curated dataset targeting distinct aspects of ambiguity. Through a series of evaluations, we reveal significant limitations and problems of overconfidence of state-of-the-art large multimodal language models in addressing ambiguity in their responses. The overconfidence issue becomes particularly relevant for RACQUET-BIAS, a subset designed to analyze a critical yet underexplored problem: failing to address ambiguity leads to stereotypical, socially biased responses. Our results underscore the urgency of equipping models with robust strategies to deal with uncertainty without resorting to undesirable stereotypes.}
 }
 
 @article{IAS-psyarxiv-2024,
