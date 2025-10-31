@@ -1,3 +1,28 @@
+@inproceedings{Qi-etal-MRL-arxiv-2025,
+  author = {Jirui Qi and Raquel Fern\'{a}ndez and Arianna Bisazza},
+  title = {On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation},
+  booktitle = {Proceedings of the 5th Multilingual Representation Learning Workshop @ EMNLP},
+  year = {2025},
+  note = {To appear.},
+  url = {https://arxiv.org/abs/2504.00597},
+  url_github = {https://github.com/Betswish/mRAG-Context-Consistency},
+  abstract = {Retrieval-augmented generation (RAG) with large language models (LLMs) has demonstrated strong performance in 
+  multilingual question-answering (QA) tasks by leveraging relevant passages retrieved from corpora. In multilingual RAG (mRAG), 
+  the retrieved passages can be written in languages other than that of the query entered by the user, making it challenging for 
+  LLMs to effectively utilize the provided information. Recent research suggests that retrieving passages from multilingual 
+  corpora can improve RAG performance, particularly for low-resource languages. However, the extent to which LLMs can 
+  leverage different kinds of multilingual contexts to generate accurate answers, *independently from retrieval quality*, 
+  remains understudied. In this paper, we conduct an extensive assessment of LLMs' ability to (i) make consistent use of 
+  a relevant passage regardless of its language, (ii) respond in the expected language, and (iii) focus on the relevant 
+  passage even when multiple `distracting' passages in different languages are provided in the context. Our experiments 
+  with four LLMs across three QA datasets covering a total of 48 languages reveal a surprising ability of LLMs to extract 
+  the relevant information from passages in a different language than the query, but a much weaker ability to formulate a 
+  full answer in the correct language. Our analysis, based on both accuracy and feature attribution techniques, further 
+  shows that distracting passages negatively impact answer quality regardless of their language. However, distractors in 
+  the query language exert a slightly stronger influence. Taken together, our findings deepen the understanding of how 
+  LLMs utilize context in mRAG systems, providing directions for future improvements.}
+}
+
 @inproceedings{Testoni-etal-arxiv-2024,
   author = 	 {Alberto Testoni and Barbara Plank and Raquel Fern\'{a}ndez},
   title = 	 {RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs},
@@ -16,7 +41,7 @@
   year = 	 {2025},
   note = 	 {To appear.},
   url = 	 {https://arxiv.org/abs/2505.16467},
-  url-github = {https://github.com/Veranep/implicit-personalization-stereotypes},
+  url_github = {https://github.com/Veranep/implicit-personalization-stereotypes},
   abstract = 	 {Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit personalization. Prior work has shown that such inferences can lead to lower quality responses for users assumed to be from minority groups, even when no demographic information is explicitly provided. In this work, we systematically explore how LLMs respond to stereotypical cues using controlled synthetic conversations, by analyzing the models' latent user representations through both model internals and generated answers to targeted user questions. Our findings reveal that LLMs do infer demographic attributes based on these stereotypical signals, which for a number of groups even persists when the user explicitly identifies with a different demographic group. Finally, we show that this form of stereotype-driven implicit personalization can be effectively mitigated by intervening on the model's internal representations using a trained linear probe to steer them toward the explicitly stated identity. Our results highlight the need for greater transparency and control in how LLMs represent user identity.}
 }
 
@@ -27,7 +52,7 @@
   year = 	 {2025},
   note =         {To appear.},
   url = 	 {http://arxiv.org/abs/2504.08590},
-  url-github = {https://github.com/lm-playpen/playpen},
+  url_github = {https://github.com/lm-playpen/playpen},
   abstract = 	 {Are we running out of learning signal? Predicting the next word in an existing text has turned out to be a powerful signal, at least at scale. But there are signs that we are running out of this resource. In recent months, interaction between learner and feedback-giver has come into focus, both for "alignment" (with a reward model judging the quality of instruction following attempts) and for improving "reasoning" (process- and outcome-based verifiers judging reasoning steps). In this paper, we explore to what extent synthetic interaction in what we call Dialogue Games -- goal-directed and rule-governed activities driven predominantly by verbal actions -- can provide a learning signal, and how this signal can be used. We introduce an environment for producing such interaction data (with the help of a Large Language Model as counterpart to the learner model), both offline and online. We investigate the effects of supervised fine-tuning on this data, as well as reinforcement learning setups such as DPO, and GRPO; showing that all of these approaches achieve some improvements in in-domain games, but only GRPO demonstrates the ability to generalise to out-of-domain games as well as retain competitive performance in reference-based tasks. We release the framework and the baseline training setups in the hope that this can foster research in this promising new direction.}
 }
 
@@ -47,8 +72,9 @@
   booktitle = 	 {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings)},
   year = 	 {2025},
   note = 	 {To appear.},
+  bibbase_note = {Featured in the "State of AI Report 2025".},
   url = 	 {https://arxiv.org/abs/2505.22888},
-  url-github = {https://github.com/Betswish/mCoT-XReasoning},
+  url_github = {https://github.com/Betswish/mCoT-XReasoning},
   abstract = 	 {Recent Large Reasoning Models (LRMs) with thinking traces have shown strong performance on English reasoning tasks. However, their ability to think in other languages is less studied. This capability is as important as answer accuracy for real world applications because users may find the reasoning trace useful for oversight only when it is expressed in their own language. We comprehensively evaluate two leading families of LRMs on our XReasoning benchmark and find that even the most advanced models often revert to English or produce fragmented reasoning in other languages, revealing a substantial gap in multilingual reasoning. Prompt based interventions that force models to reason in the users language improve readability and oversight but reduce answer accuracy, exposing an important trade off. We further show that targeted post training on just 100 examples mitigates this mismatch, though some accuracy loss remains. Our results highlight the limited multilingual reasoning capabilities of current LRMs and outline directions for future work.}
 }
 
