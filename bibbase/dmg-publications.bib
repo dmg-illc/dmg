@@ -1,10 +1,37 @@
-@inproceedings{Qi-etal-MRL-arxiv-2025,
+
+@article{IAS-psyarxiv-2024,
+title={Incremental Alternative Sampling as a Lens into the Temporal and Representational Resolution of Linguistic Prediction},
+author={Mario Giulianelli and Sarenne Wallbridge and Ryan Cotterell and Raquel Fern\'{a}ndez},
+journal = {Journal of Memory and Language},
+year={2025},
+url={https://osf.io/preprints/psyarxiv/fhp84},
+note={In press.},
+abstract={This study introduces a new model of predictive uncertainty in incremental language comprehension, which builds on and extends
+the computational framework of Surprisa theory. Incremental Alternative Sampling (IAS) posits that a comprehender's predictive uncertainty
+over upcoming linguistic units in a given sentential or discourse context is proportional to the units' representational distance from their
+expected alternative continuations. We formally define the information measure derived from this model---incremental information value---and
+situate it within the broader family of uncertainty measures. This formalism offers greater flexibility for characterising incremental
+prediction than the classical measure of surprisal. The analyses presented here focus on the representational domain and forecast horizon
+of prediction; however, the theoretical framework of IAS provides a practical foundation for investigating a wide range of aspects of prediction. 
+Our results indicate that estimates of incremental information value---computed via Monte Carlo sampling of alternatives using artificial
+neural network language models---possess significant predictive power across various behavioural and neural responses. These include
+explicit predictability judgements, cloze probabilities and surprisals, as well as signatures of processing effort like eye-tracked and
+self-paced reading times, and event-related brain potentials. Perhaps more importantly, IAS offers insights into the potential predictive
+processing strategies underlying these responses: different psycholinguistic measurements are better predicted by distinct combinations of
+representational and temporal resolutions. Beyond serving as a robust cognitive model of human comprehension, IAS also provides a window
+into language models' predictive processing. Analysis of language model estimates of next-word surprisal through the lens of incremental
+alternative sampling reveals that, despite its seemingly narrow focus on the immediate next unit, next-word surprisal estimates implicitly
+encode predictive uncertainty over longer temporal scales and across varying levels of representation.}
+}
+
+
+@inproceedings{Qi-etal-MRL-2025,
   author = {Jirui Qi and Raquel Fern\'{a}ndez and Arianna Bisazza},
   title = {On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation},
   booktitle = {Proceedings of the 5th Multilingual Representation Learning Workshop},
   year = {2025},
-  note = {To appear.},
-  url = {https://arxiv.org/abs/2504.00597},
+  bibbase_note = {Outstanding Paper Award.},
+  url = {https://aclanthology.org/2025.mrl-main.15/},
   url_github = {https://github.com/Betswish/mRAG-Context-Consistency},
   abstract = {Retrieval-augmented generation (RAG) with large language models (LLMs) has demonstrated strong performance in 
   multilingual question-answering (QA) tasks by leveraging relevant passages retrieved from corpora. In multilingual RAG (mRAG), 
@@ -23,24 +50,22 @@
   LLMs utilize context in mRAG systems, providing directions for future improvements.}
 }
 
-@inproceedings{Testoni-etal-arxiv-2024,
+@inproceedings{Testoni-etal-2024,
   author = 	 {Alberto Testoni and Barbara Plank and Raquel Fern\'{a}ndez},
   title = 	 {RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs},
   booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year = 	 {2025},
-  note={To appear.},
-  url={https://arxiv.org/abs/2412.13835},
+  url={https://aclanthology.org/2025.emnlp-main.1206/},
   abstract={Ambiguity resolution is key to effective communication. While humans effortlessly address ambiguity through conversational grounding strategies, the extent to which current language models can emulate these strategies remains unclear. In this work, we examine referential ambiguity in image-based question answering by introducing RACQUET, a carefully curated dataset targeting distinct aspects of ambiguity. Through a series of evaluations, we reveal significant limitations and problems of overconfidence of state-of-the-art large multimodal language models in addressing ambiguity in their responses. The overconfidence issue becomes particularly relevant for RACQUET-BIAS, a subset designed to analyze a critical yet underexplored problem: failing to address ambiguity leads to stereotypical, socially biased responses. Our results underscore the urgency of equipping models with robust strategies to deal with uncertainty without resorting to undesirable stereotypes.}
 }
 
 
-@inproceedings{neplenbroek-etal-arxiv-2025,
+@inproceedings{neplenbroek-etal-2025,
   author = 	 {Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
   title = 	 {Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization},
   booktitle = 	 {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year = 	 {2025},
-  note = 	 {To appear.},
-  url = 	 {https://arxiv.org/abs/2505.16467},
+  url = 	 {https://aclanthology.org/2025.emnlp-main.1029/},
   url_github = {https://github.com/Veranep/implicit-personalization-stereotypes},
   abstract = 	 {Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit personalization. Prior work has shown that such inferences can lead to lower quality responses for users assumed to be from minority groups, even when no demographic information is explicitly provided. In this work, we systematically explore how LLMs respond to stereotypical cues using controlled synthetic conversations, by analyzing the models' latent user representations through both model internals and generated answers to targeted user questions. Our findings reveal that LLMs do infer demographic attributes based on these stereotypical signals, which for a number of groups even persists when the user explicitly identifies with a different demographic group. Finally, we show that this form of stereotype-driven implicit personalization can be effectively mitigated by intervening on the model's internal representations using a trained linear probe to steer them toward the explicitly stated identity. Our results highlight the need for greater transparency and control in how LLMs represent user identity.}
 }
@@ -50,30 +75,27 @@
   title = 	 {Playpen: An Environment for Exploring Learning Through Conversational Interaction},
   booktitle = 	 {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year = 	 {2025},
-  note =         {To appear.},
-  url = 	 {http://arxiv.org/abs/2504.08590},
+  url = 	 {https://aclanthology.org/2025.emnlp-main.1517/},
   url_github = {https://github.com/lm-playpen/playpen},
   abstract = 	 {Are we running out of learning signal? Predicting the next word in an existing text has turned out to be a powerful signal, at least at scale. But there are signs that we are running out of this resource. In recent months, interaction between learner and feedback-giver has come into focus, both for "alignment" (with a reward model judging the quality of instruction following attempts) and for improving "reasoning" (process- and outcome-based verifiers judging reasoning steps). In this paper, we explore to what extent synthetic interaction in what we call Dialogue Games -- goal-directed and rule-governed activities driven predominantly by verbal actions -- can provide a learning signal, and how this signal can be used. We introduce an environment for producing such interaction data (with the help of a Large Language Model as counterpart to the learner model), both offline and online. We investigate the effects of supervised fine-tuning on this data, as well as reinforcement learning setups such as DPO, and GRPO; showing that all of these approaches achieve some improvements in in-domain games, but only GRPO demonstrates the ability to generalise to out-of-domain games as well as retain competitive performance in reference-based tasks. We release the framework and the baseline training setups in the hope that this can foster research in this promising new direction.}
 }
 
-@inproceedings{Momente-etal-arxiv-2025,
+@inproceedings{Momente-etal-2025,
   title={Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests}, 
   author={Filippo Moment\`{e} and Alessandro Suglia and Mario Giulianelli and Ambra Ferrari and Alexander Koller and Oliver Lemon and David Schlangen and Raquel Fern\'{a}ndez and Raffaella Bernardi},
   year={2025},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
-  note={To appear.},
-  url = {https://arxiv.org/abs/2502.14359},
+  url = {https://aclanthology.org/2025.findings-emnlp.1092/},
   abstract = {We examine three evaluation paradigms: large question-answering benchmarks (e.g., MMLU and BBH), interactive games (e.g., Signalling Games or Taboo), and cognitive tests (e.g., for working memory or theory of mind). First, we investigate which of the former two-benchmarks or games-is most effective at discriminating LLMs of varying quality. Then, inspired by human cognitive assessments, we compile a suite of targeted tests that measure cognitive abilities deemed essential for effective language use, and we investigate their correlation with model performance in benchmarks and games. Our analyses reveal that interactive games are superior to standard benchmarks in discriminating models. Causal and logical reasoning correlate with both static and interactive tests, while differences emerge regarding core executive functions and social/emotional skills, which correlate more with games. We advocate the development of new interactive benchmarks and targeted cognitive tasks inspired by assessing human abilities but designed specifically for LLMs.}
 }
 
-@inproceedings{qi-chen-etal-arxiv-2025,
+@inproceedings{qi-chen-etal-2025,
   author = 	 {Jirui Qi and Shan Chen and Zidi Xiong and Raquel Fern\'{a}ndez and Danielle S. Bitterman and Arianna Bisazza},
   title = 	 {When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy},
   booktitle = 	 {Findings of the Association for Computational Linguistics: EMNLP 2025},
   year = 	 {2025},
-  note = 	 {To appear.},
   bibbase_note = {Featured in the "State of AI Report 2025".},
-  url = 	 {https://arxiv.org/abs/2505.22888},
+  url = 	 {https://aclanthology.org/2025.findings-emnlp.1103/},
   url_github = {https://github.com/Betswish/mCoT-XReasoning},
   abstract = 	 {Recent Large Reasoning Models (LRMs) with thinking traces have shown strong performance on English reasoning tasks. However, their ability to think in other languages is less studied. This capability is as important as answer accuracy for real world applications because users may find the reasoning trace useful for oversight only when it is expressed in their own language. We comprehensively evaluate two leading families of LRMs on our XReasoning benchmark and find that even the most advanced models often revert to English or produce fragmented reasoning in other languages, revealing a substantial gap in multilingual reasoning. Prompt based interventions that force models to reason in the users language improve readability and oversight but reduce answer accuracy, exposing an important trade off. We further show that targeted post training on just 100 examples mitigates this mismatch, though some accuracy loss remains. Our results highlight the limited multilingual reasoning capabilities of current LRMs and outline directions for future work.}
 }
@@ -306,6 +328,22 @@ abstract={While human speakers use a variety of different expressions when descr
     url ="https://aclanthology.org/2023.emnlp-main.658/",
     bibbase_note = {Outstanding Paper Award at EMNLP'23 and a Best Data Award at the GenBench Workshop},
     abstract ="Multilingual large-scale Pretrained Language Models (PLMs) have been shown to store considerable amounts of factual knowledge, but large variations are observed across languages. With the ultimate goal of ensuring that users with different language backgrounds obtain consistent feedback from the same model, we study the cross-lingual consistency (CLC) of factual knowledge in various multilingual PLMs. To this end, we propose a Ranking-based Consistency (RankC) metric to evaluate knowledge consistency across languages independently from accuracy. Using this metric, we conduct an in-depth analysis of the determining factors for CLC, both at model level and at language-pair level. Among other results, we find that increasing model size leads to higher factual probing accuracy in most languages, but does not improve cross-lingual consistency. Finally, we conduct a case study on CLC when new factual associations are inserted in the PLMs via model editing. Results on a small sample of facts inserted in English reveal a clear pattern whereby the new piece of knowledge transfers only to languages with which English has a high RankC score."
+}
+
+@article{baan-etal-2023-uncertaintyNLG-arxiv,
+      title={Uncertainty in Natural Language Generation: From Theory to Applications}, 
+      author={Joris Baan and Nico Daheim and Evgenia Ilia and Dennis Ulmer and Haau-Sing Li and Raquel Fern\'andez and Barbara Plank and Rico Sennrich and Chrysoula Zerva and Wilker Aziz},
+      year={2023},
+      journal = {ArXiv},
+      url={https://arxiv.org/abs/2307.15703}, 
+      abstract = {Recent advances of powerful Language Models have allowed Natural Language Generation (NLG) to emerge as an important technology 
+that can not only perform traditional tasks like summarisation or translation, but also serve as a natural language interface to a variety of applications. 
+As such, it is crucial that NLG systems are trustworthy and reliable, for example by indicating when they are likely to be wrong; and supporting multiple views, 
+backgrounds and writing styles -- reflecting diverse human sub-populations. In this paper, we argue that a principled treatment of uncertainty can assist in 
+creating systems and evaluation protocols better aligned with these goals. We first present the fundamental theory, frameworks and vocabulary required to 
+represent uncertainty. We then characterise the main sources of uncertainty in NLG from a linguistic perspective, and propose a two-dimensional taxonomy that 
+is more informative and faithful than the popular aleatoric/epistemic dichotomy. Finally, we move from theory to applications and highlight exciting research directions that 
+exploit uncertainty to power decoding, controllable generation, self-assessment, selective answering, active learning and more.}
 }
 
 
