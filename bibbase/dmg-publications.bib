@@ -1,3 +1,11 @@
+@inproceedings{Bavaresco-etal-2026,
+	author = 	 {Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
+	title = 	 {Vision-Language Models Align with Human Neural Representations in Concept Processing},
+	booktitle = 	 {Proceedings of the The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+	year = 	 {2026},
+	note= {To appear.}
+	abstract = {Recent studies suggest that transformer-based vision-language models (VLMs) capture the multimodality of concept processing in the human brain. However, a systematic evaluation exploring different types of VLM architectures and the role played by visual and textual context is still lacking. Here, we analyse multiple VLMs employing different strategies to integrate visual and textual modalities, along with language-only counterparts. We measure the alignment between concept representations by models and existing (fMRI) brain responses to concept words presented in two experimental conditions, where either visual (pictures) or textual (sentences) context is provided. Our results reveal that VLMs outperform the language-only counterparts in both experimental conditions. However, controlled ablation studies show that only for some VLMs, such as LXMERT and IDEFICS2, brain alignment stems from genuinely learning more human-like concepts during pretraining, while others are highly sensitive to the context provided at inference. Additionally, we find that vision-language encoders are more brain-aligned than more recent, generative VLMs. Altogether, our study shows that VLMs align with human neural representations in concept processing, while highlighting differences among architectures.}
+}
 
 @article{IAS-psyarxiv-2024,
 title={Incremental Alternative Sampling as a Lens into the Temporal and Representational Resolution of Linguistic Prediction},
@@ -152,6 +160,28 @@ replace human judges in NLP.}
   url={https://ceur-ws.org/Vol-3964/paper19.pdf},
   url_github={https://github.com/akskuchi/vwp-visual-storytelling},
   abstract={Producing stories grounded in visual content is an inherent trait of human intelligence and an integral aspect of interpersonal communication. With the surge of advanced vision-to-language models, there has been increased interest in developing and understanding the capabilities of models to generate visually grounded narratives. However, recent research has highlighted the challenges in evaluating model-generated stories. In this work, we study these evaluation limitations in the visually grounded story generation task by focusing on the recently released Visual Writing Prompts dataset and shared task. Through this study, we also explore the capabilities of several general-purpose vision-to-language foundation models for generating stories grounded in sequences of images. We observe that some recent models, such as Qwen2.5-VL, can generate stories that are coherent, consistent, and well-grounded in the visual data. Nevertheless, in line with the recent studies in this area, we find that the existing automatic evaluation metrics and methods are insuficient in fully capturing all the aspects essential for assessing model-generated stories. We believe our findings reinforce the evidence and arguments emphasizing the need for improvements to automatic approaches that can comprehensively evaluate and understand models for visual storytelling.}
+}
+
+@article{Bavaresco-deHeerKloots-etal-arxiv-2025,
+	title={Modelling Multimodal Integration in Human Concept Processing with Vision-Language Models},
+	author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
+	journal = {ArXiv},
+	year={2025},
+	url={https://arxiv.org/abs/2407.17914},
+	abstract={Text representations from language models have proven remarkably predictive of human neural activity involved in language processing, 
+	with the recent transformer-based models outperforming previous architectures in downstream tasks and prediction of brain responses. 
+	However, the word representations learnt by language-only models may be limited in that they lack sensory information from other modalities, 
+	which several cognitive and neuroscience studies showed to be reflected in human meaning representations. Here, we leverage current pre-trained 
+	vision-language models (VLMs) to investigate whether the integration of visuo-linguistic information they operate leads to representations 
+	that are more aligned with human brain activity than those obtained by models trained with language-only input. We focus on fMRI responses 
+	recorded while participants read concept words in the context of either a full sentence or a picture. Our results reveal that VLM representations 
+	correlate more strongly than those by language-only models with activations in brain areas functionally related to language processing. 
+	Additionally, we find that transformer-based vision-language encoders -- e.g., LXMERT and VisualBERT -- yield more brain-aligned representations 
+	than generative VLMs, whose autoregressive abilities do not seem to provide an advantage when modelling single words. Finally, our ablation 
+	analyses suggest that the high brain alignment achieved by some of the VLMs we evaluate results from semantic information acquired specifically 
+	during multimodal pretraining as opposed to being already encoded in their unimodal modules. Altogether, our findings indicate an advantage of 
+	multimodal models in predicting human brain activations, which reveals that modelling language and vision integration has the potential to 
+	capture the multimodal nature of human concept representations.}
 }
 
 @inproceedings{Qi2024ModelIA,
