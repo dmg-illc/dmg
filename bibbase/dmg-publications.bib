@@ -7,29 +7,18 @@
 	abstract = {Recent studies suggest that transformer-based vision-language models (VLMs) capture the multimodality of concept processing in the human brain. However, a systematic evaluation exploring different types of VLM architectures and the role played by visual and textual context is still lacking. Here, we analyse multiple VLMs employing different strategies to integrate visual and textual modalities, along with language-only counterparts. We measure the alignment between concept representations by models and existing (fMRI) brain responses to concept words presented in two experimental conditions, where either visual (pictures) or textual (sentences) context is provided. Our results reveal that VLMs outperform the language-only counterparts in both experimental conditions. However, controlled ablation studies show that only for some VLMs, such as LXMERT and IDEFICS2, brain alignment stems from genuinely learning more human-like concepts during pretraining, while others are highly sensitive to the context provided at inference. Additionally, we find that vision-language encoders are more brain-aligned than more recent, generative VLMs. Altogether, our study shows that VLMs align with human neural representations in concept processing, while highlighting differences among architectures.}
 }
 
-@article{IAS-psyarxiv-2024,
+@article{Giulianelli-etal--JML-2026,
 title={Incremental Alternative Sampling as a Lens into the Temporal and Representational Resolution of Linguistic Prediction},
 author={Mario Giulianelli and Sarenne Wallbridge and Ryan Cotterell and Raquel Fern\'{a}ndez},
 journal = {Journal of Memory and Language},
-year={2025},
-url={https://osf.io/preprints/psyarxiv/fhp84},
-note={In press.},
-abstract={This study introduces a new model of predictive uncertainty in incremental language comprehension, which builds on and extends
-the computational framework of Surprisa theory. Incremental Alternative Sampling (IAS) posits that a comprehender's predictive uncertainty
-over upcoming linguistic units in a given sentential or discourse context is proportional to the units' representational distance from their
-expected alternative continuations. We formally define the information measure derived from this model---incremental information value---and
-situate it within the broader family of uncertainty measures. This formalism offers greater flexibility for characterising incremental
-prediction than the classical measure of surprisal. The analyses presented here focus on the representational domain and forecast horizon
-of prediction; however, the theoretical framework of IAS provides a practical foundation for investigating a wide range of aspects of prediction. 
-Our results indicate that estimates of incremental information value---computed via Monte Carlo sampling of alternatives using artificial
-neural network language models---possess significant predictive power across various behavioural and neural responses. These include
-explicit predictability judgements, cloze probabilities and surprisals, as well as signatures of processing effort like eye-tracked and
-self-paced reading times, and event-related brain potentials. Perhaps more importantly, IAS offers insights into the potential predictive
-processing strategies underlying these responses: different psycholinguistic measurements are better predicted by distinct combinations of
-representational and temporal resolutions. Beyond serving as a robust cognitive model of human comprehension, IAS also provides a window
-into language models' predictive processing. Analysis of language model estimates of next-word surprisal through the lens of incremental
-alternative sampling reveals that, despite its seemingly narrow focus on the immediate next unit, next-word surprisal estimates implicitly
-encode predictive uncertainty over longer temporal scales and across varying levels of representation.}
+year={2026},
+volume = {148},
+pages = {104715},
+issn = {0749-596X},
+doi = {https://doi.org/10.1016/j.jml.2025.104715},
+url_OPT = {https://www.sciencedirect.com/science/article/pii/S0749596X25001081},
+url = {https://authors.elsevier.com/sd/article/S0749-596X(25)00108-1},
+abstract={We present incremental alternative sampling (IAS), a computational account of incremental language comprehension in which the comprehender continually generates, evaluates, and updates predictions about alternative continuations of partial linguistic input. IAS is related to information-theoretic approaches to predictive processing, including surprisal, but makes explicit the role of variable prediction horizons and multiple levels of linguistic representation. Within this framework, we define incremental information value as the representational distance between predictions generated before and after observing a unit, thereby quantifying the change in predictive uncertainty induced by that unit and, by extension, its predictability and associated processing effort. We operationalise this measure using Transformer-based language models — both to sample alternative continuations spanning variable prediction horizons and to derive representations along a continuum of linguistic levels. Language model estimates of incremental information value significantly predict a wide range of word-level neural and behavioural responses to incremental stimuli, including cloze probabilities, predictability ratings, eye-tracking measures, self-paced reading times, and ERP amplitudes. IAS also offers insight into the predictive strategies underlying these responses. Distinct psycholinguistic measures are best captured by different combinations of temporal and representational resolution, and a model that integrates multiple resolutions outperforms surprisal for most measures, with particularly strong effects for cloze probability, N400 amplitudes, and for self-paced reading times in naturalistic, multi-sentence stimuli. Beyond modelling human comprehension, IAS provides a principled lens on predictive mechanisms in artificial language processors, showing that next-word prediction in Transformer language models implicitly encodes uncertainty over longer temporal horizons and across levels of representation.}
 }
 
 
@@ -60,7 +49,7 @@ encode predictive uncertainty over longer temporal scales and across varying lev
 
 @inproceedings{Testoni-etal-emnlp-2024,
   author = 	 {Alberto Testoni and Barbara Plank and Raquel Fern\'{a}ndez},
-  title = 	 {RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs},
+  title = 	 {{RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs}},
   booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year = 	 {2025},
   url={https://aclanthology.org/2025.emnlp-main.1206/},
@@ -70,7 +59,7 @@ encode predictive uncertainty over longer temporal scales and across varying lev
 
 @inproceedings{neplenbroek-etal-2025,
   author = 	 {Vera Neplenbroek and Arianna Bisazza and Raquel Fern\'{a}ndez},
-  title = 	 {Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization},
+  title = 	 {{Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization}},
   booktitle = 	 {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year = 	 {2025},
   url = 	 {https://aclanthology.org/2025.emnlp-main.1029/},
