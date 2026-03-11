@@ -1,3 +1,15 @@
+@inproceedings{zaranis-etal-2026-mf2,
+      title={Movie Facts and Fibs (MF2): A Benchmark for Long Movie Understanding}, 
+      author={Emmanouil Zaranis and Ant\'onio Farinhas and Saul Santos and Beatriz Canaverde and Miguel Moura Ramos and Aditya K Surikuchi and Andr\'e Viveiros and Baohao Liao and Elena Bueno-Benito and Nithin Sivakumaran and Pavlo Vasylenko and Shoubin Yu and Sonal Sannigrahi and Wafaa Mohammed and Ben Peters and Danae Sánchez Villegas and Elias Stengel-Eskin and Giuseppe Attanasio and Jaehong Yoon and Stella Frank and Alessandro Suglia and Chrysoula Zerva and Desmond Elliott and Mariella Dimiccoli and Mohit Bansal and Oswald Lanz and Raffaella Bernardi and Raquel Fern\'andez and Sandro Pezzelle and Vlad Niculae and André F. T. Martins},
+      year={2026},
+      booktitle = {Workshop on Multimodal Intelligence: Next Token Prediction & Beyond (ICLR 2026)},
+      url={https://openreview.net/pdf?id=i58ycqyHiV}, 
+      url_github = {https://github.com/deep-spin/MF2},
+      url_data = {https://huggingface.co/datasets/sardinelab/MF2},
+      abstract = {Holistic understanding of long-form video remains a challenge for vision-language models (VLMs). Unfortunately, current benchmarks cannot easily capture this limitation, since they mostly focus on ``needle-in-a-haystack'' details, rewarding context-insensitive retrieval over deep comprehension. Others rely on large-scale, semi-automatically generated questions (often produced by language models themselves) that are easier for models to answer but fail to reflect genuine understanding. In this paper, we address this gap by introducing MF, a new benchmark to evaluate how well models are able to comprehend, consolidate, and recall key narrative information from full-length movies (50-170 minutes long), requiring integration of both visual and language modalities. MF includes over 50 full-length, open-licensed movies, each paired with manually constructed sets of claim pairs---one true (fact) and one plausible but false (fib), totalling over 850 pairs. These claims target core narrative elements such as character motivations and emotions, causal chains, and event order, and refer to memorable moments that humans can recall without rewatching the movie. Our experiments demonstrate that both open-weight and closed state-of-the-art models fall well short of human performance. Despite the relative ease of the task for humans who can effectively retain and reason over critical narrative information, current VLMs lack this ability and thus struggle.}
+}
+
+
 @inproceedings{Bavaresco-etal-2026,
 	author = 	 {Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
 	title = 	 {Vision-Language Models Align with Human Neural Representations in Concept Processing},
@@ -155,28 +167,6 @@ replace human judges in NLP.}
 generate visually grounded narratives. However, recent research has highlighted the challenges in evaluating model-generated stories. In this work, we study these evaluation limitations in the visually grounded story generation task by focusing on the recently released 
 Visual Writing Prompts dataset and shared task. Through this study, we also explore the capabilities of several general-purpose vision-to-language foundation models for generating stories grounded in sequences of images. We observe that some recent models, such as Qwen2.5-VL, 
 can generate stories that are coherent, consistent, and well-grounded in the visual data. Nevertheless, in line with the recent studies in this area, we find that the existing automatic evaluation metrics and methods are insuficient in fully capturing all the aspects essential for assessing model-generated stories. We believe our findings reinforce the evidence and arguments emphasizing the need for improvements to automatic approaches that can comprehensively evaluate and understand models for visual storytelling.}
-}
-
-@article{Bavaresco-deHeerKloots-etal-arxiv-2025,
-	title={Modelling Multimodal Integration in Human Concept Processing with Vision-Language Models},
-	author={Anna Bavaresco and Marianne de Heer Kloots and Sandro Pezzelle and Raquel Fern\'{a}ndez},
-	journal = {ArXiv},
-	year={2025},
-	url={https://arxiv.org/abs/2407.17914},
-	abstract={Text representations from language models have proven remarkably predictive of human neural activity involved in language processing, 
-	with the recent transformer-based models outperforming previous architectures in downstream tasks and prediction of brain responses. 
-	However, the word representations learnt by language-only models may be limited in that they lack sensory information from other modalities, 
-	which several cognitive and neuroscience studies showed to be reflected in human meaning representations. Here, we leverage current pre-trained 
-	vision-language models (VLMs) to investigate whether the integration of visuo-linguistic information they operate leads to representations 
-	that are more aligned with human brain activity than those obtained by models trained with language-only input. We focus on fMRI responses 
-	recorded while participants read concept words in the context of either a full sentence or a picture. Our results reveal that VLM representations 
-	correlate more strongly than those by language-only models with activations in brain areas functionally related to language processing. 
-	Additionally, we find that transformer-based vision-language encoders -- e.g., LXMERT and VisualBERT -- yield more brain-aligned representations 
-	than generative VLMs, whose autoregressive abilities do not seem to provide an advantage when modelling single words. Finally, our ablation 
-	analyses suggest that the high brain alignment achieved by some of the VLMs we evaluate results from semantic information acquired specifically 
-	during multimodal pretraining as opposed to being already encoded in their unimodal modules. Altogether, our findings indicate an advantage of 
-	multimodal models in predicting human brain activations, which reveals that modelling language and vision integration has the potential to 
-	capture the multimodal nature of human concept representations.}
 }
 
 @inproceedings{Qi2024ModelIA,
