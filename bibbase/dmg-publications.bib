@@ -8,7 +8,7 @@
 	abstract = {When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic groups, they are minimal in magnitude. To investigate what is the main driver of disparities between users, we compare user sociodemographics to a range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic groups when user information is conveyed through conversation histories and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand the effect of conversational context on LLM outputs in high-stakes scenarios.}
 }
 
-@techreport{fernandez-etal-2026JRC,
+@misc{fernandez-etal-2026JRC,
 	title = {Towards sovereign AI evaluation: Mapping the impact of AI benchmarking practices on European AI sovereignty},
     author = {Fernández, Raquel and Ramalli, Edoardo and Kempeneers, Pieter}, 
     publisher = {European Commission}, 
@@ -23,8 +23,8 @@
       title={Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation}, 
       author={Joris Baan and Wilker Aziz and Barbara Plank and Raquel Fernández},
       year={2026},
-      booktitle = {Proceedings of the 19th International Natural Language Generation Conference (INLG)}
-      url={https://2026.inlgmeeting.org/static/proceedings/long/watermarked_pdfs/48.pdf}, 
+      booktitle = {Proceedings of the 19th International Natural Language Generation Conference (INLG)},
+      url = {https://2026.inlgmeeting.org/static/proceedings/long/watermarked_pdfs/48.pdf}, 
       url_github = {https://github.com/jsbaan/belief-augmented-generation},
 	  url_data = {https://jorisbaan.nl/belief-augmented-generation},
       abstract = {Large language models (LLMs) define a distribution over text, which can be viewed as a probabilistic representation of uncertainty: sampling K responses yields a belief state - responses a model deems plausible. Existing work exploits this representation for narrow tasks like either decoding or selective prediction, and often requires manual interventions, not controlling generation directly. We propose Belief-Augmented Generation (BAG): grounding LLMs in their own belief state via the prompt and letting them reason over these K samples to decide on a conversational strategy: answer, clarify, or abstain. In a multi-turn ambiguous QA setting, we find that LLMs by default rarely clarify or abstain, ignoring uncertainty about the input or facts. BAG improves QA accuracy across six models and yields strategy decisions more faithful to the belief state than prompt-only baselines. Disentangling when to clarify from when to abstain, however, remains challenging.}
@@ -50,6 +50,7 @@
       url_github = {https://github.com/Betswish/ConsistencyRL},
       year= {2026},
       url= {https://openreview.net/forum?id=8FsiTJC04n}, 
+      abstract = {Language models often respond inconsistently to translation-equivalent prompts across languages, undermining the reliability of multilingual systems. To quantify this, we give an information-theoretic definition of crosslingual consistency as a divergence bound between a model’s response distribution and its round-trip pushforward across languages. We then introduce penalized consistency optimization (PCO), a post-training procedure that couples this divergence with a Kullback–Leibler penalty to a fixed reference language model. Because direct optimization of PCO requires expensive on-policy roll-outs, we propose a tractable surrogate, direct consistency optimization (DCO), which can be optimized off-policy. Across diverse language models and 26 languages, DCO significantly improves crosslingual consistency, outperforms existing methods, and enables targeted alignment of low-resource languages.}
 }
 
 @inproceedings{Bavaresco-etal-2026,
