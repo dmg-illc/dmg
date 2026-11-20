@@ -1,12 +1,55 @@
+@inproceedings{neplenbroek-eta-eacl2027,
+	title = {Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers},
+    author = {Vera Neplenbroek and Gabriele Sarti and Arianna Bisazza and Raquel Fern{\'a}ndez},
+	booktitle = {Proceedings of the 20th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+	year = {2027},
+	url = {https://arxiv.org/abs/2606.02776},
+	url_github = {https://github.com/Veranep/topics-proxies-sociodemographics},
+	abstract = {When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic groups, they are minimal in magnitude. To investigate what is the main driver of disparities between users, we compare user sociodemographics to a range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic groups when user information is conveyed through conversation histories and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand the effect of conversational context on LLM outputs in high-stakes scenarios.}
+}
+
+@techreport{fernandez-etal-2026JRC,
+	title = {Towards sovereign AI evaluation: Mapping the impact of AI benchmarking practices on European AI sovereignty},
+    author = {Fernández, Raquel and Ramalli, Edoardo and Kempeneers, Pieter}, 
+    publisher = {European Commission}, 
+    address = {Brussels},
+    number = {JRC148894},
+    year = {2026}, 
+    url = {https://publications.jrc.ec.europa.eu/repository/handle/JRC148894},
+    abstract = {This policy brief highlights the importance of AI evaluation in strategic actions concerning European AI sovereignty, alongside other dimensions such as ownership of infrastructure and access to AI models. AI benchmarking practices have far-reaching impact on both the development of AI systems and their regulation. Therefore, to make informed decisions on the application of AI in key sectors like industry and science, it is essential to ensure that AI benchmarking practices are high-quality and EU-aligned. Without well-established AI evaluation standards, benchmarking practices are dominated by dynamics that can jeopardise European AI sovereignty, including commercial and political pressures, linguistic and cultural biases, and lack of scientific rigour. To promote sovereign AI evaluation, coordinated action is required across multiple EU interest groups, ranging from AI model developers and evaluation scientists to policy makers. There is a need to encourage research on novel, advanced, and independent AI evaluation methodologies and to establish standards for AI benchmarking practices that are aligned with EU values.}
+}
+
+@inproceedings{baan-etal-inlg2026,
+      title={Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation}, 
+      author={Joris Baan and Wilker Aziz and Barbara Plank and Raquel Fernández},
+      year={2026},
+      booktitle = {Proceedings of the 19th International Natural Language Generation Conference (INLG)}
+      url={https://2026.inlgmeeting.org/static/proceedings/long/watermarked_pdfs/48.pdf}, 
+      url_github = {https://github.com/jsbaan/belief-augmented-generation},
+	  url_data = {https://jorisbaan.nl/belief-augmented-generation},
+      abstract = {Large language models (LLMs) define a distribution over text, which can be viewed as a probabilistic representation of uncertainty: sampling K responses yields a belief state - responses a model deems plausible. Existing work exploits this representation for narrow tasks like either decoding or selective prediction, and often requires manual interventions, not controlling generation directly. We propose Belief-Augmented Generation (BAG): grounding LLMs in their own belief state via the prompt and letting them reason over these K samples to decide on a conversational strategy: answer, clarify, or abstain. In a multi-turn ambiguous QA setting, we find that LLMs by default rarely clarify or abstain, ignoring uncertainty about the input or facts. BAG improves QA accuracy across six models and yields strategy decisions more faithful to the belief state than prompt-only baselines. Disentangling when to clarify from when to abstain, however, remains challenging.}
+}
+
+@inproceedings{zaranis-etal-emnlp2026,
+      title={How Well Do Vision-Language Models Understand Movies?}, 
+      author={Emmanouil Zaranis and Ant\'onio Farinhas and Saul Santos and Beatriz Canaverde and Miguel Moura Ramos and Aditya K Surikuchi and Andr\'e Viveiros and Baohao Liao and Elena Bueno-Benito and Nithin Sivakumaran and Pavlo Vasylenko and Shoubin Yu and Sonal Sannigrahi and Wafaa Mohammed and Ben Peters and Danae Sánchez Villegas and Elias Stengel-Eskin and Giuseppe Attanasio and Jaehong Yoon and Stella Frank and Alessandro Suglia and Chrysoula Zerva and Desmond Elliott and Mariella Dimiccoli and Mohit Bansal and Oswald Lanz and Raffaella Bernardi and Raquel Fern\'andez and Sandro Pezzelle and Vlad Niculae and André F. T. Martins},
+      year={2026},
+      booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+      url = {https://aclanthology.org/2026.emnlp-main.1702/},
+      url_github = {https://github.com/deep-spin/MF2-bench-can-vlms-understand-movies},
+      url_data = {https://huggingface.co/datasets/sardinelab/MF2},
+      abstract = {Vision-language models (VLMs) can increasingly handle extended contexts and answer questions about long videos—but can they understand the narrative structure of movies as humans do? To investigate this question, we introduce MF2 (Movie Facts and Fibs), a fully manually curated benchmark designed to evaluate whether models can identify, recall, and comprehend information central to the movie’s storyline, using both the visual and textual modalities. MF2 includes over 50 open-licensed movies, each paired with manually constructed sets of claim pairs: one true claim (fact) and one plausible but false (fib), totaling over 850 pairs. Our analysis across 20 open-source and 2 proprietary models reveals a substantial gap relative to human performance. While subtitles provide a strong signal for narrative understanding, other textual sources (e.g., synopses) are less informative. In contrast, when visual information is distributed across the entire movie and jointly embedded with subtitles, models struggle to identify and effectively use the relevant content. However, when the visual input is restricted to claim-relevant visual content, models improve significantly, indicating substantial room for improvement in processing large multimodal contexts and distinguishing relevant from irrelevant information. Overall, our findings highlight persistent challenges in multimodal narrative understanding for current VLMs. We release our data and code to support further research in this direction.}
+}
+
 
 @inproceedings{liu2026posttraininglanguagemodelscrosslingual,
-      title={Post-Training Language Models for Crosslingual Consistency}, 
-      author={Tianyu Liu and Jirui Qi and Mrinmaya Sachan and Ryan Cotterell and Raquel Fernández and Arianna Bisazza},
-      year={2026},
+      title= {Post-Training Language Models for Crosslingual Consistency}, 
+      author= {Tianyu Liu and Jirui Qi and Mrinmaya Sachan and Ryan Cotterell and Raquel Fernández and Arianna Bisazza},
+      year= {2026},
       booktitle = {43rd International Conference on Machine Learning (ICML)},
       url_github = {https://github.com/Betswish/ConsistencyRL},
-      year={2026},
-      url={https://openreview.net/forum?id=8FsiTJC04n}, 
+      year= {2026},
+      url= {https://openreview.net/forum?id=8FsiTJC04n}, 
 }
 
 @inproceedings{Bavaresco-etal-2026,
@@ -14,10 +57,9 @@
 	title = 	 {Vision-Language Models Align with Human Neural Representations in Concept Processing},
 	booktitle = 	 {Proceedings of the The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
 	year = 	 {2026},
-    url = {https://arxiv.org/abs/2407.17914v3},
-	note= {To appear.},
+    url = {https://aclanthology.org/2026.eacl-long.150/},
     url_github = {https://github.com/dmg-illc/vl-concept-processing},
-	abstract = {Recent studies suggest that transformer-based vision-language models (VLMs) capture the multimodality of concept processing in the human brain. However, a systematic evaluation exploring different types of VLM architectures and the role played by visual and textual context is still lacking. Here, we analyse multiple VLMs employing different strategies to integrate visual and textual modalities, along with language-only counterparts. We measure the alignment between concept representations by models and existing (fMRI) brain responses to concept words presented in two experimental conditions, where either visual (pictures) or textual (sentences) context is provided. Our results reveal that VLMs outperform the language-only counterparts in both experimental conditions. However, controlled ablation studies show that only for some VLMs, such as LXMERT and IDEFICS2, brain alignment stems from genuinely learning more human-like concepts during pretraining, while others are highly sensitive to the context provided at inference. Additionally, we find that vision-language encoders are more brain-aligned than more recent, generative VLMs. Altogether, our study shows that VLMs align with human neural representations in concept processing, while highlighting differences among architectures. We open-source code and materials to reproduce our experiments.}
+	abstract = {Recent studies suggest that transformer-based vision-language models (VLMs) capture the multimodality of concept processing in the human brain. However, a systematic evaluation exploring different types of VLM architectures and the role played by visual and textual context is still lacking. Here, we analyse multiple VLMs employing different strategies to integrate visual and textual modalities, along with language-only counterparts. We measure the alignment between concept representations by models and existing (fMRI) brain responses to concept words presented in two experimental conditions, where either visual (pictures) or textual (sentences) context is provided. Our results reveal that VLMs outperform the language-only counterparts in both experimental conditions. However, controlled ablation studies show that only for some VLMs, such as LXMERT and IDEFICS2, brain alignment stems from genuinely learning more human-like concepts during pretraining, while others are highly sensitive to the context provided at inference. Additionally, we find that vision-language encoders are more brain-aligned than more recent, generative VLMs. Altogether, our study shows that VLMs align with human neural representations in concept processing, while highlighting differences among architectures. We open-source code and materials to reproduce our experiments at: https://github.com/dmg-illc/vl-concept-processing.}
 }
 
 @article{Giulianelli-etal--JML-2026,
