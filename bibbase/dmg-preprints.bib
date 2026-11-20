@@ -24,29 +24,6 @@
       abstract = {Foundation models are used for many real-world applications involving language generation from temporally-ordered multimodal events. In this work, we study the ability of models to identify the most important sub-events in a video, which is a fundamental prerequisite for narrating or summarizing multimodal events. Specifically, we focus on football games and evaluate models on their ability to distinguish between important and non-important sub-events in a game. To this end, we construct a new dataset by leveraging human preferences for importance implicit in football game highlight reels, without any additional annotation costs. Using our dataset, we compare several state-of-the-art multimodal models and show that they are not far from chance level performance. Analyses of models beyond standard evaluation metrics reveal their tendency to rely on a single dominant modality and their ineffectiveness in synthesizing necessary information from multiple sources. Our findings underline the importance of modular architectures that can handle sample-level heterogeneity in multimodal data and the need for complementary training procedures that can maximize cross-modal synergy.}
 }
 
-@misc{baan2026clarifyabstainanswerstrategising,
-      title={Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation}, 
-      author={Joris Baan and Wilker Aziz and Barbara Plank and Raquel Fernández},
-      year={Preprints},
-      note = {2026.}
-      eprint={2605.25831},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2605.25831}, 
-      abstract = {Large language models (LLMs) define a distribution over text, which can be viewed as a probabilistic representation of uncertainty: sampling K responses yields a belief state - responses a model deems plausible. Existing work exploits this representation for narrow tasks like either decoding or selective prediction, and often requires manual interventions, not controlling generation directly. We propose Belief-Augmented Generation (BAG): grounding LLMs in their own belief state via the prompt and letting them reason over these K samples to decide on a conversational strategy: answer, clarify, or abstain. In a multi-turn ambiguous QA setting, we find that LLMs by default rarely clarify or abstain, ignoring uncertainty about the input or facts. BAG improves QA accuracy across six models and yields strategy decisions more faithful to the belief state than prompt-only baselines. Disentangling when to clarify from when to abstain, however, remains challenging.}
-}
-
-@inproceedings{zaranis-etal-2026-mf2,
-      title={Movie Facts and Fibs (MF2): A Benchmark for Long Movie Understanding}, 
-      author={Emmanouil Zaranis and Ant\'onio Farinhas and Saul Santos and Beatriz Canaverde and Miguel Moura Ramos and Aditya K Surikuchi and Andr\'e Viveiros and Baohao Liao and Elena Bueno-Benito and Nithin Sivakumaran and Pavlo Vasylenko and Shoubin Yu and Sonal Sannigrahi and Wafaa Mohammed and Ben Peters and Danae Sánchez Villegas and Elias Stengel-Eskin and Giuseppe Attanasio and Jaehong Yoon and Stella Frank and Alessandro Suglia and Chrysoula Zerva and Desmond Elliott and Mariella Dimiccoli and Mohit Bansal and Oswald Lanz and Raffaella Bernardi and Raquel Fern\'andez and Sandro Pezzelle and Vlad Niculae and André F. T. Martins},
-      year={Preprints},
-      note = {2026.}
-      url={https://arxiv.org/abs/2506.06275}, 
-      url_github = {https://github.com/deep-spin/MF2},
-      url_data = {https://huggingface.co/datasets/sardinelab/MF2},
-      abstract = {Holistic understanding of long-form video remains a challenge for vision-language models (VLMs). Unfortunately, current benchmarks cannot easily capture this limitation, since they mostly focus on ``needle-in-a-haystack'' details, rewarding context-insensitive retrieval over deep comprehension. Others rely on large-scale, semi-automatically generated questions (often produced by language models themselves) that are easier for models to answer but fail to reflect genuine understanding. In this paper, we address this gap by introducing MF, a new benchmark to evaluate how well models are able to comprehend, consolidate, and recall key narrative information from full-length movies (50-170 minutes long), requiring integration of both visual and language modalities. MF includes over 50 full-length, open-licensed movies, each paired with manually constructed sets of claim pairs---one true (fact) and one plausible but false (fib), totalling over 850 pairs. These claims target core narrative elements such as character motivations and emotions, causal chains, and event order, and refer to memorable moments that humans can recall without rewatching the movie. Our experiments demonstrate that both open-weight and closed state-of-the-art models fall well short of human performance. Despite the relative ease of the task for humans who can effectively retain and reason over critical narrative information, current VLMs lack this ability and thus struggle.}
-}
-
 @article{ghaleb-etal-2024-arxiv,
 title={Leveraging Speech for Gesture Detection in Multimodal Communication}, 
 author={Esam Ghaleb and Ilya Burenko and Marlou Rasenberg and Wim Pouw and Ivan Toni and Peter Uhrig and Anna Wilson and Judith Holler and Asl\i \"Ozy\"urek and Raquel Fern\'andez},
